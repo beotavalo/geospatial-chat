@@ -1,0 +1,204 @@
+{
+    "items": [
+        {
+            "tags": [
+                "business"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "answer_id": 7328,
+            "is_answered": false,
+            "question_id": 7326,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1358933409,
+            "creation_date": 1300280898,
+            "body": "I work in business intelligence and I am the responsible GIS admin. We are a health care firm and since we&#39;ve added geospatial data to our Cognos reports, the users have told me that their workflow and the possibilities I&#39;ve opened to them, has evolved ever since. It is now easier for them to visualize certain data quicker and act from that data. Some decisions are made because of regional disease frequency. Its easier to value a cluster then a whole list of &quot;some&quot; values.\n",
+            "excerpt": "I work in business <span class=\"highlight\">intelligence</span> and I am the responsible GIS admin. &hellip; We are a health care firm and since we&#39;ve added <span class=\"highlight\">geospatial</span> data to our Cognos reports, the users have told me that their workflow and the possibilities I&#39;ve opened to them, has evolved ever since. &hellip; ",
+            "title": "Benefits of using GIS in business intelligence software?"
+        },
+        {
+            "tags": [
+                "coordinate-system"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "answer_id": 290902,
+            "is_answered": false,
+            "question_id": 259121,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1532710386,
+            "creation_date": 1532710386,
+            "body": "You have discovered the reason for the following information extracted from an NGA Advisory Notice on &quot;Web Mercator&quot;. \n\n&quot;The NGA Geomatics Office has assessed the use of Web Mercator and other non-WGS 84 spatial reference systems may cause geo-location / geo-coordinate errors up to 40,000 meters. This erroneous geospatial positioning information poses an unacceptable risk to global safety of navigation activities, and department of defense, intelligence community, and allied partner systems, missions, and operations that require accurate and precise positioning and navigation information. The NGA Geomatics Office reminds the community to use DoD approved World Geodetic System 1984 (WGS 84) applications for all mission critical activities.&quot;\n\nEPSG:3395 is WGS 84 compliant.  EPSG:3857 is NOT!  You are seeing the reason why. \n\nI didn&#39;t realize that either until I was most of the way thru a project and I was finally told that I couldn&#39;t use EPSG:3857 for the above reasons.  I scrambled to find a replacement and came up with EPSG:3395.  It was a relatively painless conversion as all I had to do was change the projection declaration in the code.  However, a major issue then came up when I ran into the problem of conversions between EPSG:3395 and the other projection I was using, EPSG:4326 which is in LAT/LON rather than meters.  Openlayers only supports conversions between EPSG:4326 and EPSG:3857 out of the box.  If you want to use any other projection, such as EPSG:3395, you need to use proj4.js and OpenLayers knows to automatically look into proj4.js for the routines it needs.  However, you need to prime the pump, so to speak.  You need to declare the projection definition string, an example for EPSG:3395 follows.\n\n\n\nThis one can be found at https://epsg.io/3395.  I&#39;ve run into another problem with this though that I am trying solve.  The projections don&#39;t work the same. I have documented the problem here and I am looking for any information anyone has as to why.\n\nhttps://stackoverflow.com/questions/51528830/epsg3395-projection-not-providing-map-wrapping\n",
+            "excerpt": "This erroneous <span class=\"highlight\">geospatial</span> positioning information poses an unacceptable risk to global safety of navigation activities, and department of defense, <span class=\"highlight\">intelligence</span> community, and allied partner systems, missions &hellip; ",
+            "title": "Transformation functions for EPSG:3395 projection vs. EPSG:3857"
+        },
+        {
+            "tags": [
+                "data"
+            ],
+            "question_score": 55,
+            "is_accepted": false,
+            "answer_id": 7798,
+            "is_answered": false,
+            "question_id": 7758,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1301265387,
+            "creation_date": 1301265387,
+            "body": "The NGA (National Geospatial-Intelligence Agency) makes available up-to-date &quot;Anti-Shipping Activity Messages&quot; (aka &quot;pirate data&quot;) which includes locations and descriptive accounts of specific hostile acts against ships world-wide.  The data is also available in GIS data formats such as shapefiles, KML and file geodatabase.\n\nhttp://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&amp;_pageLabel=msi_portal_page_65\n",
+            "excerpt": "The NGA (National <span class=\"highlight\">Geospatial</span>-<span class=\"highlight\">Intelligence</span> Agency) makes available up-to-date &quot;Anti-Shipping Activity Messages&quot; (aka &quot;pirate data&quot;) which includes locations and descriptive accounts of specific hostile &hellip; ",
+            "title": "The GIS of War - Tracking Conflicts and Their Effects"
+        },
+        {
+            "tags": [
+                "leaflet"
+            ],
+            "question_score": 0,
+            "is_accepted": false,
+            "answer_id": 277935,
+            "is_answered": false,
+            "question_id": 268851,
+            "item_type": "answer",
+            "score": 2,
+            "last_activity_date": 1522789505,
+            "creation_date": 1522692188,
+            "body": "The NSG GeoPackage spec defines permitted extensions and restrictions on top of the OGC GeoPackage spec.  It does not define base GeoPackage spec breaking changes to how tiles are stored.\nNational System for Geospatial-Intelligence (NSG) GeoPackage Encoding Standard 1.1\nInteroperability Standard\n(2017-08-10)\nVersion 2.1\n\nThis Interoperability Standard is a Class 2 conformance profile as defined by ISO 19106, Geographic Information \u2013 Profiles date 2004-07-01 that includes a single standard with permitted NSG extensions and restrictions to the standard. An Interoperability Standard provides detailed direction on how to use the clauses, options, and parameters of the base standard(s).\n\nThe GeoPackage spec stores tiles in a tile pyramid which has nothing to do with XYZ tiles (although you can configure a GeoPackage to mirror XYZ tiles).\n\nThe gpkg_tile_matrix_set table defines the spatial reference system (srs_id) and the maximum bounding box (min_x, min_y, max_x, max_y) for all possible tiles in a tile pyramid user data table.\nThe tile coordinate (0,0) always refers to the tile in the upper left corner of the tile matrix at any zoom level, regardless of the actual availability of that tile.\n\nThe NSG GeoPackage spec restricts the tile dimensions to 256x256, zoom levels by a factor of 2, and bounding boxes to represent the full global tile indexing scheme.\n\nNSG Req 20: The gpkg_tile_matrix table SHALL contain tile_width and tile_height column values of 256 for every table_name tile pyramid data table.\nNSG Req 21: Every tile_data tile in every table_name tile pyramid data table shall have a width and height of 256 pixels.\nNSG Req 22: The gpkg_tile_matrix table SHALL contain pixel_x_size and pixel_y_size column values that differ by a factor of 2 between all adjacent zoom levels for each tile pyramid data table per OGC GeoPackage Clause 2.2.3.  It SHALL NOT contain pixel sizes that vary by irregular intervals or by regular intervals other than a factor of 2 between adjacent zoom levels per OGC GeoPackage Clause 2.2.3.\nNSG Req 23: The (min_x, min_y, max_x,  max_y) values in the gpkg_tile_matrix_set table SHALL be the maximum bounds of the CRS specified for the tile pyramid data table and SHALL be used to determine the geographic position of each tile in the tile pyramid data table.\n\nThe geopackage-js library does support NSG GeoPackages since they adhere to the base GeoPackage specification.  I ran through the U.S. Naval Research Laboratory NSG GeoPackage examples and all worked on the geopackage-js demo page.  The Blue Marble GeoPackage revealed a bug when using proj4js causing high level tiles and further in edge tiles to not display.  This has now been fixed.  NSG GeoPackages with a SRS organization of NGA are currently not supported (see this issue for more details).  Feel free to submit geopackage-js issues if you run into additional problems.\nEdit: Load Black Marble GeoPackage in geopackage-js\n",
+            "excerpt": "National System for <span class=\"highlight\">Geospatial</span>-<span class=\"highlight\">Intelligence</span> (NSG) GeoPackage Encoding Standard 1.1\nInteroperability Standard\n(2017-08-10)\nVersion 2.1\n\nThis Interoperability Standard is a Class 2 conformance profile as &hellip; ",
+            "title": "Support viewing correctly and creating NSG GPKG RASTER TILES"
+        },
+        {
+            "tags": [
+                "history",
+                "terminology"
+            ],
+            "question_score": 15,
+            "is_accepted": false,
+            "answer_id": 259930,
+            "is_answered": false,
+            "question_id": 58422,
+            "item_type": "answer",
+            "score": 1,
+            "last_activity_date": 1509141762,
+            "creation_date": 1509141762,
+            "body": "I&#39;ve been in the business since 1976.    I first heard the term from two people who claimed to have coined it in the 90s.   Rationale was that they were looking for a word that emphasized the precision needed for geographic analysis.     Geospatial was intended to convey a greater level of spatial precision within GIS and Geographic Analysis.    The follow-on term, Geospatial-Intelligence made its way into the names of several national government organizations\n",
+            "excerpt": "<span class=\"highlight\">Geospatial</span> was intended to convey a greater level of spatial precision within GIS and Geographic Analysis. &hellip; The follow-on term, <span class=\"highlight\">Geospatial</span>-<span class=\"highlight\">Intelligence</span> made its way into the names of several national government organizations &hellip; ",
+            "title": "When did the word &quot;geospatial&quot; first come into usage?"
+        },
+        {
+            "tags": [
+                "coordinate-system",
+                "utm"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "answer_id": 266582,
+            "is_answered": false,
+            "question_id": 266508,
+            "item_type": "answer",
+            "score": 1,
+            "last_activity_date": 1514614464,
+            "creation_date": 1514614464,
+            "body": "I found two references that I think lock in the most likely answer at 60 cylinders, but a close reading of the definition, could reasonably lead to an interpretation of 30, 60, or 120.\n\nIf one ignores the potential for flipping the opposite side map (antipodal?) then 30 cylinders could be the smallest number, as mkennedy spelled out above.\n\nThe 60 cylinders model is the most common approach used to visualize them, but interestingly enough, the two references only mention 120 Spatial Reference Frames or instances.\n\nFirst up, the US National Geospatialintelligence Agency (NGA) defines UTM as follows: \n\nUTM is a family of 120 instances of the general form of the transverse \nMercator projection. Each instance is called a zone and is given a \nzone number Z between -60 and +60 excluding zero. \n\nSource:NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY STANDARDIZATION DOCUMENT Implementation Practice The Universal Grids and the Transverse Mercator and Polar Stereographic Map Projections 2014-03-25, NGA.SIG.0012_2.0.0_UTMUPS, Section 7.1 page 32.   \n\nSecond, the International Standards Organization (ISO) group has published the standard for Spatial Reference Models, and it defines UTM as: \n\nA set of 120 localized Spatial Reference Frames (SRFs), \nwhere limited overlap is modelled by extended validity regions in the member SRFs. \n\nSource: International Standard ISO / IEC 18026, Information Technology: Spatial Reference Model, ISO / IEC 18026, Section 8.7.7 - Table 8.6.0, page 192.\n\nSo, one could also make a case for 120 cylinders (half cylinders?) since each UTM zone could be aligned to a unique one.  If the mappers use different ellipsoids for their UTM projections, then the cylinders will naturally be different too.\n\nI think the UTM standard for the US to only use the WGS 1984 ellipsoid - and that is the standard.  The referenced NGA document also spelled out approaches for TM to be applied to many other ellipsoids, starting at page 20. \n\nI hope this helps - corrections welcome.\n",
+            "excerpt": "Source:NATIONAL <span class=\"highlight\">GEOSPATIAL</span>-<span class=\"highlight\">INTELLIGENCE</span> AGENCY STANDARDIZATION DOCUMENT Implementation Practice The Universal Grids and the Transverse Mercator and Polar Stereographic Map Projections 2014-03-25, NGA.SIG &hellip; ",
+            "title": "How Many UTM Cylinders are there?"
+        },
+        {
+            "tags": [
+                "data",
+                "government"
+            ],
+            "question_score": 15,
+            "is_accepted": false,
+            "answer_id": 28053,
+            "is_answered": false,
+            "question_id": 28047,
+            "item_type": "answer",
+            "score": 1,
+            "last_activity_date": 1340400149,
+            "creation_date": 1340400149,
+            "body": "\n\nThe National Geospatial-Intelligence Agency offers an impressive POI list called &quot;Complete Files of Geographic Names for Geopolitical Areas&quot;, which seems to comprehensively cover every spot of the world.\n\nI had a brief, but good, experience with the POI list of Isreal.\n\nThe data is updated as to 18 July 2002.\n",
+            "excerpt": "The National <span class=\"highlight\">Geospatial</span>-<span class=\"highlight\">Intelligence</span> Agency offers an impressive POI list called &quot;Complete Files of Geographic Names for Geopolitical Areas&quot;, which seems to comprehensively cover every spot of the world &hellip; ",
+            "title": "List of US government free GIS data online"
+        },
+        {
+            "tags": [
+                "web-mapping",
+                "cartography"
+            ],
+            "question_score": 1,
+            "is_accepted": false,
+            "answer_id": 272461,
+            "is_answered": false,
+            "question_id": 272443,
+            "item_type": "answer",
+            "score": 0,
+            "last_activity_date": 1519391567,
+            "creation_date": 1519387545,
+            "body": "The US Gov also provide lots of geographical data for free including place name for the whole world at : http://geonames.nga.mil/gns/html/namefiles.html \n\nI dont know if this is up to the level of detail you seek but that could be a good starting point (for exemple Netherlands data contain 22887 record).\n\nI download and have a quick look to some place I know, the locations are not very accurate (could be off to 100 or 1000 meters sometime) but it seem to have most of city, town, hamlet and small populated place as well as a lot of non populated place like mountain, rivers, forest, name of point of interest and other geographical feature. I would say it is as complete as what google map display if not more complete (of course disregarding street name/adresses...) for the small area I checked.\n\nSo to answer your question most map service probably get their name data from US National Geospatial-Intelligence Agency who give it freely for the whole world (Some other country have similar database, sometime in open data sometime to buy, but generally they covers only their national territories)\n",
+            "excerpt": "So to answer your question most map service probably get their name data from US National <span class=\"highlight\">Geospatial</span>-<span class=\"highlight\">Intelligence</span> Agency who give it freely for the whole world (Some other country have similar database &hellip; ",
+            "title": "Where do map services get their town name data from?"
+        },
+        {
+            "tags": [
+                "wgs84",
+                "datum",
+                "nad83"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "answer_id": 230312,
+            "is_answered": false,
+            "question_id": 230029,
+            "item_type": "answer",
+            "score": 0,
+            "last_activity_date": 1488331896,
+            "creation_date": 1488322601,
+            "body": "One important reason is that only the US military, NATO, and other allies or contractors, and other US government departments with clearance have access to true WGS84 coordinates and the control network. Everybody else is getting degraded values. It is true that the National Geospatial Intelligence Agency (NGA prior NIMA prior DMA) states that WGS84 is aligned at least to centimeters with the corresponding ITRFxx reference frame (International Terrestrial Reference Frame, xx = year). \n\nIf you can perform real-time kinematics or have other access to control points or are post-processing the data, you can recover that degradation in accuracy but to whatever coordinate reference system (CRS) that the control network is broadcasting. That will be some variant of ITRFxx or the local geographic CRS like NAD83 (2011) (USA) or NAD83 (CSRS) (Canada) or GDA2020 (upcoming in Australia). \n\nThe local systems have been derived using the ITRF network, plus the country&#39;s control network and usually fixed. This enables surveyors, GIS, etc. to not worry about the coordinates jiggling continuously. USA, in particular, keeps their control network fixed to the North American, Pacific, or Mariana plates to minimize the change in coordinates over time. When there&#39;s been enough movement (plate motion, subsidence, glacial rebound, earthquakes), the geodetic agency may do a re-adjustment or calculate a new realization and update the coordinates of the control network.\n\nSeveral countries are planning to go to dynamic or semi-dynamic CRS which will more closely match what IERS does with the ITRF realizations. This is possible for a few reasons including the ability to obtain data and process it in a timely manner.\n",
+            "excerpt": "It is true that the National <span class=\"highlight\">Geospatial</span> <span class=\"highlight\">Intelligence</span> Agency (NGA prior NIMA prior DMA) states that WGS84 is aligned at least to centimeters with the corresponding ITRFxx reference frame (International &hellip; ",
+            "title": "When is data created in datums other than WGS84?"
+        },
+        {
+            "tags": [
+                "data",
+                "natural-earth",
+                "places"
+            ],
+            "question_score": -1,
+            "is_accepted": false,
+            "answer_id": 344799,
+            "is_answered": false,
+            "question_id": 344751,
+            "item_type": "answer",
+            "score": 0,
+            "last_activity_date": 1576156658,
+            "creation_date": 1576144993,
+            "body": "One good source for place name is : Geonames page of The National Geospatial-Intelligence Agency (US government) who give file for the whole world, it come as several .txt file (tab separated value) for each country, each .txt file beeing for a different kind a place . (you will find link for each country but the USA and all info about these data on the linked page)\n\nBe careful as the locations are not always accurate (could be off up to 100 or 1000 meters sometime) but it seem to have most of city, town, hamlet and small populated place as well as a lot of non populated place like mountain, rivers, forest, name of point of interest and other geographical feature. I would say it is as complete as what google map display if not more complete (of course disregarding street name/adresses...) for the small area I checked\n",
+            "excerpt": "One good source for place name is : Geonames page of The National <span class=\"highlight\">Geospatial</span>-<span class=\"highlight\">Intelligence</span> Agency (US government) who give file for the whole world, it come as several .txt file (tab separated value) for &hellip; ",
+            "title": "Populated Places Names"
+        },
+        {
+            "tags": [
+                "geoserver",
+                "ecw"
+            ],
+            "question_score": 0,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 0,
+            "is_answered": false,
+            "question_id": 483726,
+            "item_type": "question",
+            "score": 0,
+            "last_activity_date": 1721027803,
+            "creation_date": 1720793677,
+            "body": "is it possible to add an ecw file as a data source?\nI have the gdal extension installed:\nModule Name: ImageI/O-Ext GDAL Coverage Extension\nModule ID: gs-gdal\nVersion: 2.24.2\nComponent: GridCoverage2DReader\nMessage:\nJNI GDAL Wrapper Version: 3.0.0\nGDAL Version: 3.0.4\nGDAL Release Date: 20200128\nGDAL Build Info: PAM_ENABLED=YES\nOGR_ENABLED=YES\nGEOS_ENABLED=YES\nGEOS_VERSION=3.8.0-CAPI-1.13.1\nImageIO-Ext Version: 1.4.7\nGeoserver image version: kartoza/geoserver:2.24.2\nI still don&#39;t have the option to import a file from ecw:\n\ngdalinfo --formats\nSupported Formats:\nVRT -raster- (rw+v): Virtual Raster\nDERIVED -raster- (ro): Derived datasets using VRT pixel functions\nGTiff -raster- (rw+vs): GeoTIFF\nNITF -raster- (rw+vs): National Imagery Transmission Format\nRPFTOC -raster- (rovs): Raster Product Format TOC format\nECRGTOC -raster- (rovs): ECRG TOC format\nHFA -raster- (rw+v): Erdas Imagine Images (.img)\nSAR_CEOS -raster- (rov): CEOS SAR Image\nCEOS -raster- (rov): CEOS Image\nJAXAPALSAR -raster- (rov): JAXA PALSAR Product Reader (Level 1.1/1.5)\nGFF -raster- (rov): Ground-based SAR Applications Testbed File Format (.gff)\nELAS -raster- (rw+v): ELAS\nAIG -raster- (rov): Arc/Info Binary Grid\nAAIGrid -raster- (rwv): Arc/Info ASCII Grid\nGRASSASCIIGrid -raster- (rov): GRASS ASCII Grid\nSDTS -raster- (rov): SDTS Raster\nDTED -raster- (rwv): DTED Elevation Raster\nPNG -raster- (rwv): Portable Network Graphics\nJPEG -raster- (rwv): JPEG JFIF\nMEM -raster- (rw+): In Memory Raster\nJDEM -raster- (rov): Japanese DEM (.mem)\nGIF -raster- (rwv): Graphics Interchange Format (.gif)\nBIGGIF -raster- (rov): Graphics Interchange Format (.gif)\nESAT -raster- (rov): Envisat Image Format\nFITS -raster- (rw+): Flexible Image Transport System\nBSB -raster- (rov): Maptech BSB Nautical Charts\nXPM -raster- (rwv): X11 PixMap Format\nBMP -raster- (rw+v): MS Windows Device Independent Bitmap\nDIMAP -raster- (rov): SPOT DIMAP\nAirSAR -raster- (rov): AirSAR Polarimetric Image\nRS2 -raster- (rovs): RadarSat 2 XML Product\nSAFE -raster- (rov): Sentinel-1 SAR SAFE Product\nPCIDSK -raster,vector- (rw+v): PCIDSK Database File\nPCRaster -raster- (rw+): PCRaster Raster File\nILWIS -raster- (rw+v): ILWIS Raster Map\nSGI -raster- (rw+v): SGI Image File Format 1.0\nSRTMHGT -raster- (rwv): SRTMHGT File Format\nLeveller -raster- (rw+v): Leveller heightfield\nTerragen -raster- (rw+v): Terragen heightfield\nGMT -raster- (rw): GMT NetCDF Grid Format\nnetCDF -raster,vector- (rw+vs): Network Common Data Format\nHDF4 -raster- (ros): Hierarchical Data Format Release 4\nHDF4Image -raster- (rw+): HDF4 Dataset\nISIS3 -raster- (rw+v): USGS Astrogeology ISIS cube (Version 3)\nISIS2 -raster- (rw+v): USGS Astrogeology ISIS cube (Version 2)\nPDS -raster- (rov): NASA Planetary Data System\nPDS4 -raster,vector- (rw+vs): NASA Planetary Data System 4\nVICAR -raster- (rov): MIPL VICAR file\nTIL -raster- (rov): EarthWatch .TIL\nERS -raster- (rw+v): ERMapper .ers Labelled\nJP2OpenJPEG -raster,vector- (rwv): JPEG-2000 driver based on OpenJPEG library\nL1B -raster- (rovs): NOAA Polar Orbiter Level 1b Data Set\nFIT -raster- (rwv): FIT Image\nGRIB -raster- (rwv): GRIdded Binary (.grb, .grb2)\nRMF -raster- (rw+v): Raster Matrix Format\nWCS -raster- (rovs): OGC Web Coverage Service\nWMS -raster- (rwvs): OGC Web Map Service\nMSGN -raster- (rov): EUMETSAT Archive native (.nat)\nRST -raster- (rw+v): Idrisi Raster A.1\nINGR -raster- (rw+v): Intergraph Raster\nGSAG -raster- (rwv): Golden Software ASCII Grid (.grd)\nGSBG -raster- (rw+v): Golden Software Binary Grid (.grd)\nGS7BG -raster- (rw+v): Golden Software 7 Binary Grid (.grd)\nCOSAR -raster- (rov): COSAR Annotated Binary Matrix (TerraSAR-X)\nTSX -raster- (rov): TerraSAR-X Product\nCOASP -raster- (ro): DRDC COASP SAR Processor Raster\nR -raster- (rwv): R Object Data Store\nMAP -raster- (rov): OziExplorer .MAP\nKMLSUPEROVERLAY -raster- (rwv): Kml Super Overlay\nWEBP -raster- (rwv): WEBP\nPDF -raster,vector- (rw+vs): Geospatial PDF\nRasterlite -raster- (rwvs): Rasterlite\nMBTiles -raster,vector- (rw+v): MBTiles\nPLMOSAIC -raster- (ro): Planet Labs Mosaics API\nCALS -raster- (rwv): CALS (Type 1)\nWMTS -raster- (rwv): OGC Web Map Tile Service\nSENTINEL2 -raster- (rovs): Sentinel 2\nMRF -raster- (rw+v): Meta Raster Format\nPNM -raster- (rw+v): Portable Pixmap Format (netpbm)\nDOQ1 -raster- (rov): USGS DOQ (Old Style)\nDOQ2 -raster- (rov): USGS DOQ (New Style)\nPAux -raster- (rw+v): PCI .aux Labelled\nMFF -raster- (rw+v): Vexcel MFF Raster\nMFF2 -raster- (rw+): Vexcel MFF2 (HKV) Raster\nFujiBAS -raster- (rov): Fuji BAS Scanner Image\nGSC -raster- (rov): GSC Geogrid\nFAST -raster- (rov): EOSAT FAST Format\nBT -raster- (rw+v): VTP .bt (Binary Terrain) 1.3 Format\nLAN -raster- (rw+v): Erdas .LAN/.GIS\nCPG -raster- (rov): Convair PolGASP\nIDA -raster- (rw+v): Image Data and Analysis\nNDF -raster- (rov): NLAPS Data Format\nEIR -raster- (rov): Erdas Imagine Raw\nDIPEx -raster- (rov): DIPEx\nLCP -raster- (rwv): FARSITE v.4 Landscape File (.lcp)\nGTX -raster- (rw+v): NOAA Vertical Datum .GTX\nLOSLAS -raster- (rov): NADCON .los/.las Datum Grid Shift\nNTv1 -raster- (rov): NTv1 Datum Grid Shift\nNTv2 -raster- (rw+vs): NTv2 Datum Grid Shift\nCTable2 -raster- (rw+v): CTable2 Datum Grid Shift\nACE2 -raster- (rov): ACE2\nSNODAS -raster- (rov): Snow Data Assimilation System\nKRO -raster- (rw+v): KOLOR Raw\nROI_PAC -raster- (rw+v): ROI_PAC raster\nRRASTER -raster- (rw+v): R Raster\nBYN -raster- (rw+v): Natural Resources Canada&#39;s Geoid\nARG -raster- (rwv): Azavea Raster Grid format\nRIK -raster- (rov): Swedish Grid RIK (.rik)\nUSGSDEM -raster- (rwv): USGS Optional ASCII DEM (and CDED)\nGXF -raster- (rov): GeoSoft Grid Exchange Format\nDODS -raster- (ro): DAP 3.x servers\nBAG -raster- (rwv): Bathymetry Attributed Grid\nHDF5 -raster- (rovs): Hierarchical Data Format Release 5\nHDF5Image -raster- (rov): HDF5 Dataset\nNWT_GRD -raster- (rw+v): Northwood Numeric Grid Format .grd/.tab\nNWT_GRC -raster- (rov): Northwood Classified Grid Format .grc/.tab\nADRG -raster- (rw+vs): ARC Digitized Raster Graphics\nSRP -raster- (rovs): Standard Raster Product (ASRP/USRP)\nBLX -raster- (rwv): Magellan topo (.blx)\nEPSILON -raster- (rwv): Epsilon wavelets\nPostGISRaster -raster- (rws): PostGIS Raster driver\nSAGA -raster- (rw+v): SAGA GIS Binary Grid (.sdat, .sg-grd-z)\nIGNFHeightASCIIGrid -raster- (rov): IGN France height correction ASCII Grid\nXYZ -raster- (rwv): ASCII Gridded XYZ\nHF2 -raster- (rwv): HF2/HFZ heightfield raster\nJPEGLS -raster- (rwv): JPEGLS\nOZI -raster- (rov): OziExplorer Image File\nCTG -raster- (rov): USGS LULC Composite Theme Grid\nE00GRID -raster- (rov): Arc/Info Export E00 GRID\nZMap -raster- (rwv): ZMap Plus Grid\nNGSGEOID -raster- (rov): NOAA NGS Geoid Height Grids\nIRIS -raster- (rov): IRIS data (.PPI, .CAPPi etc)\nPRF -raster- (rov): Racurs PHOTOMOD PRF\nRDA -raster- (ro): DigitalGlobe Raster Data Access driver\nEEDAI -raster- (ros): Earth Engine Data API Image\nDAAS -raster- (ro): Airbus DS Intelligence Data As A Service driver\nSIGDEM -raster- (rwv): Scaled Integer Gridded DEM .sigdem\nGPKG -raster,vector- (rw+vs): GeoPackage\nCAD -raster,vector- (rovs): AutoCAD Driver\nPLSCENES -raster,vector- (ro): Planet Labs Scenes API\nNGW -raster,vector- (rw+s): NextGIS Web\nGenBin -raster- (rov): Generic Binary (.hdr Labelled)\nENVI -raster- (rw+v): ENVI .hdr Labelled\nEHdr -raster- (rw+v): ESRI .hdr Labelled\nISCE -raster- (rw+v): ISCE raster\nHTTP -raster,vector- (ro): HTTP Fetching Wrapper\n\n",
+            "excerpt": "SAR Processor Raster\nR -raster- (rwv): R Object Data Store\nMAP -raster- (rov): OziExplorer .MAP\nKMLSUPEROVERLAY -raster- (rwv): Kml Super Overlay\nWEBP -raster- (rwv): WEBP\nPDF -raster,vector- (rw+vs): <span class=\"highlight\">Geospatial</span> &hellip; data (.PPI, .CAPPi etc)\nPRF -raster- (rov): Racurs PHOTOMOD PRF\nRDA -raster- (ro): DigitalGlobe Raster Data Access driver\nEEDAI -raster- (ros): Earth Engine Data API Image\nDAAS -raster- (ro): Airbus DS <span class=\"highlight\">Intelligence</span> &hellip; ",
+            "title": "Import ECW file"
+        }
+    ],
+    "has_more": false,
+    "quota_max": 300,
+    "quota_remaining": 296
+}

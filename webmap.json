@@ -1,0 +1,1983 @@
+{
+    "items": [
+        {
+            "tags": [
+                "data"
+            ],
+            "question_score": 55,
+            "is_accepted": true,
+            "answer_id": 7760,
+            "is_answered": false,
+            "question_id": 7758,
+            "item_type": "answer",
+            "score": 38,
+            "last_activity_date": 1327621410,
+            "creation_date": 1301095774,
+            "body": "\nDiego Valle-Jones has done some interesting work analysing and mapping Mexico&#39;s drug war (R code on github). Wikinarco provides webmap interface to some drug related crime statistics in Mexico. \n\n\n\n\nNow interactive map is also available:\n\n\n\n\nThe Economist has also done some mapping of drug related deaths, cartel areas and traffic routes.\n\n\n\n\n\n\n\n\n\nFrench OWNI provides nice web frontend for Wikileak&#39;s diplomatic cables. There seems to be map app, but it didn&#39;t work for me. Telegraph came with a web map as well.\n\n\n\n\n\n\n\nFor Iraq Wikileaks data visualization mentioned already by Kirk there is also interesting visualization from placr. For &#39;nonspatial&#39; browsing check OWNI&#39;s \napp.\nAnd before Iraq, Guardian  and The Atlantic also tried to visualize selection of Afgan Wikileaks data. \n\n\n\n\n\nOWNI provides &#39;nonspatial&#39; browser again. Nai&#39;s MediaWatch team provides spatio-temporal overview of the violence against journalists.\n\n\n\n\n\n\n\nAs for contrast to wars, Vision of Humanity provides interactive map of Global Peace Index.\n\n\n\n\nUpdate 1: Recently stumbled upon Guardian&#39;s visualization of Nato attacks in Libya. \n\n\n\n\n\nUpdate 2: Although not a military conflict per se, London riots start to fit description of this question as well. Slashgeo points to few geovisualizations on the topic. Guardian maps location of suspects, riots against poverty. And GENeSIS analyzes geolocated tweets.\n\n\n\nUpdate 3: Interesting visualization of protected areas &amp; civil conflicts in Democratic Republic of Congo.\n\n\n\nUpdate 4: Somalian Piracy Threat Map 2010 from Wikipedia article.\n\n\n",
+            "excerpt": "Wikinarco provides <span class=\"highlight\">webmap</span> interface to some drug related crime statistics in Mexico. &hellip; ",
+            "title": "The GIS of War - Tracking Conflicts and Their Effects"
+        },
+        {
+            "tags": [
+                "web-mapping",
+                "software-recommendations",
+                "php"
+            ],
+            "question_score": 22,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 5,
+            "is_answered": true,
+            "question_id": 13868,
+            "item_type": "question",
+            "score": 22,
+            "last_activity_date": 1501706794,
+            "creation_date": 1314025442,
+            "body": "I&#39;m a recent Computer Science graduate who prides himself on his knowledge of software development and problem solving, but has no idea how GIS systems work. (Read: I&#39;m a programmer.)\n\nI&#39;ve been charged with developing (ie. coding) a new webmap from scratch.\n\nI can program in any language that has bindings to COM (Microsoft Component Object Model), so I&#39;ve been writing in PHP.\n",
+            "excerpt": "I&#39;ve been charged with developing (ie. coding) a new <span class=\"highlight\">webmap</span> from scratch.\n\nI can program in any language that has bindings to COM (Microsoft Component Object Model), so I&#39;ve been writing in PHP. &hellip; ",
+            "title": "Seeking developer-friendly web GIS?"
+        },
+        {
+            "tags": [
+                "open-source-gis",
+                "arcgis-platform"
+            ],
+            "question_score": 19,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 5,
+            "is_answered": true,
+            "question_id": 23556,
+            "item_type": "question",
+            "score": 19,
+            "last_activity_date": 1459310578,
+            "creation_date": 1334594787,
+            "body": "I always wonder, why in GIS industry there are merely two major options available. Although there are many other proprietary software products for GIS, their market share is well below ESRI products (here, here and here although quite back dated). My opinion became stronger after joining GIS SE. Most of the questions, as well as the leading users (with highest reputation), are either for/interested in ESRI line of products or FOSS (of course apart from some questions related to data and theory). \n\nHowever this not the case in other streams of information technology, databases and programming languages in broad sense. I personally feel one reason could be the lack of interest by the software giants like Microsoft, Google or Oracle. While the first two have WebMaps, these are not WebGIS, and the spatial extension of Oracle is not fully GIS too. \n\nWhat are the major reasons for such a trend? There is nice article somewhat related to this, &quot; The Five Major Roadblocks to GIS Gaining Corporate Market Share&quot;. But this is not the answer I am looking for.\n\n\n\nMost of the answers seem to be trying to prove open source tools are better than Esri products! But that was not the question. Because it is difficult to compare a matured but expensive tool with a bunch of comparatively newer open source tools with great usability. My question is why no industry standard product from any established software giants? \n",
+            "excerpt": "I always wonder, why in GIS industry there are merely two major options available. Although there are many other proprietary software products for GIS, their market share is well below ESRI products ( &hellip; ",
+            "title": "Is GIS industry always ruled by two options only, namely Esri products and OSGeo projects?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "configuration",
+                "image-service"
+            ],
+            "question_score": 14,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 231889,
+            "item_type": "question",
+            "score": 14,
+            "last_activity_date": 1544403675,
+            "creation_date": 1489421005,
+            "body": "The USDA (via the National Map) provides 4-band NAIP ArcGIS &quot;ImageServer&quot; (services) for most states in the US.  I am able to successfully connect to the WMS service in QGIS as described here, which loads the imagery into QGIS using the default RGB (1,2,3) bands.\n\nHowever, I&#39;d like to change the imagery to display the CIR (bands 4,1,2).  On the &quot;Style&quot; tab, the Render Type only offers the &quot;Singleband color data&quot; option, not the &quot;Multiband color&quot; option described in step 3.5 for typical rasters here.  This appears to be a limitation of the WMS Service.\n\nYou can do this from the same service in ArcGIS Desktop using the REST endpoint.  An ArcGIS Online webmap example of changing the bands of a service is available using the REST endpoint.  Just go to the &quot;...&quot; on the layer, choose &quot;Image Display&quot; and then &quot;User Defined Renderer&quot;.  \n\nUPDATE:\n\nI&#39;ve been playing around with the Developer Tools in Chrome and the ArcGIS.com map sample from here, and think I&#39;ve found a small nugget of info.  After I changed the image display settings, I noticed some query parameters set as:\n\n\n\nAfter I changed the band ID&#39;s again, I realized that the bandID&#39;s in this query parameter are zero-based, instead of 1-based.  Therefore &amp;bandIds=3,0,1 are really referring to bands 4,1,2 used to display imagery in CIR format.  So I just need to figure out how to configure the query string for QGIS to accept this parameter.  Any thoughts?\n",
+            "excerpt": "An ArcGIS Online <span class=\"highlight\">webmap</span> example of changing the bands of a service is available using the REST endpoint. &hellip; ",
+            "title": "Configure which bands to display from a 4-band ArcGIS image service?"
+        },
+        {
+            "tags": [
+                "geoserver",
+                "hosting"
+            ],
+            "question_score": 12,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 4,
+            "is_answered": true,
+            "question_id": 30491,
+            "item_type": "question",
+            "score": 12,
+            "last_activity_date": 1481121756,
+            "creation_date": 1343538841,
+            "body": "I am working with a non-profit, and we are planning to have a webmap for them. Most of the hosting providers just offer a simple LAMP setup on their Linux option, and if you want to install any software on your own, you need to go for a dedicated server (either real or virtual) which is very expensive for the organisation I am working with.\n\nI have seen that there is a hosting provider for Mapserver based maps.\n\nIs there any similar provider for Geoserver based maps?\n",
+            "excerpt": "I am working with a non-profit, and we are planning to have a <span class=\"highlight\">webmap</span> for them. &hellip; ",
+            "title": "Are there any Hosting companies, that offer Geoserver?"
+        },
+        {
+            "tags": [
+                "arcgis-server",
+                "web-mapping",
+                "enterprise-geodatabase"
+            ],
+            "question_score": 12,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 55416,
+            "item_type": "question",
+            "score": 12,
+            "last_activity_date": 1366388500,
+            "creation_date": 1364237238,
+            "body": "EDIT/UPDATE: I&#39;m adding a bounty to this in hopes of obtaining a step-by-step guide to creating an online map with feature editing using the ArcGIS Flex API, SQL Server Express and ArcGIS Server 10.1. I&#39;ve run into so many issues (database authentication with Express, errors enabling feature editing) that I think my best bet is to start over and go through each step. A moderately detailed guide would be very much appreciated.\n\n\n\nI&#39;m primarily a desktop GIS programmer and need to develop a web application in which features can be edited by multiple users. I&#39;m looking for a brief summary of the full steps I would need to carry this process out if I were starting from scratch.\n\nSoftware: ArcGIS Flex API and SQL Server Express with ArcGIS Server 10.1.\n\nThe steps as I understand them so far:\n\n1) Install ArcGIS Server on our server (actually a virtual machine on an existing server)\n\n2) Install the ArcGIS Web Adapter\n\n3) Install ArcSDE on the same server\n\n4) Install SQL Server Express on the same server\n\nThis is where I need some clarification. As I understand it I need to create a new geodatabase to store the features I wish to display/edit. I also understand I need to create a Feature Service and Geometry Service. Finally I will need to host the developed application using a web server.\n\nI&#39;m essentially looking for a walk-through for this process as I have never carried it out before. Any information/resources would be much appreciated.\n",
+            "excerpt": "EDIT/UPDATE: I&#39;m adding a bounty to this in hopes of obtaining a step-by-step guide to creating an online map with feature editing using the ArcGIS Flex API, SQL Server Express and ArcGIS Server 10.1. &hellip; ",
+            "title": "Steps for creating an online webmap with editable features using ArcGIS Server/SDE and SQL Server?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "labeling",
+                "basemap"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "answer_id": 309785,
+            "is_answered": false,
+            "question_id": 309768,
+            "item_type": "answer",
+            "score": 11,
+            "last_activity_date": 1548351112,
+            "creation_date": 1548351112,
+            "body": "This issue has been discussed (and lamented) many times on this site before. Have a look at these questions:\n\n\nWhy do quickmapservices basemap labels shrink when printed?\nHow to increase label size of OpenLayers plugin basemap layers?\nSet scale level of background map (QGIS)\nQGIS - changing WMS / ArcGISMapServer Zoom level\nHow to make a map in Qgis with a background of google maps?\nHow can I show the details from the highest zoom of OSM webmaps in QGIS for printing?\n\n\nThis is a limitation of base layers from WMS services. They&#39;re rendered as tiles, which means that the size of the labels is baked into each zoom level. When you increase the resolution, the server provides you a more zoomed-in tile, which has: (1) higher resolution and (2) smaller labels. You can&#39;t get (1) without (2).\n\nOne workaround is to force the tileserver to give you the zoomed-out version of the tiles. The image will be slightly fuzzy/pixelated but the labels will be larger. There are two ways to do this:\n\n\nReduce the dpi of your export. This requires some trial and error to find the highest dpi that will still give you the higher zoom level.\nImport the WMS layer as an XYZ tile layer. The basemap will still have a low resolution, but the other elements in your map can have as high a resolution as you want.\n\nFirst, find and copy the service URL from the layer properties &gt; Information &gt; GetMapURL\n\n\n\nNext, open the Browser panel, right click on &quot;XYZ Tiles&quot; &gt; New Connection. Paste the URL you found before. Set the max zoom level, and give the layer a name like &quot;This Basemap max zoom 16&quot;. Import the layer from the browser.\n\n\n\nIt takes some trial and error to find the right maximum zoom level for the scale at which you&#39;re making maps. \n\n\nAnother workaround is to use a basemap without labels, and add the labels from another source. \n\n\nIf you search around, you may find a WMS basemap which is just label, so you can control the label size independently. For example, through the QuickMapServices plugin you can get a layer called &quot;ESRI Boundaries&amp;Places&quot; which has place names (cities, states, parks, natural features) and political boundaries, but no street names. \nOr you can manually add the labels you want. \n\n\nIt&#39;s a trade-off between the convenience of a pre-made basemap versus having control over every aspect of your map.\n",
+            "excerpt": "This issue has been discussed (and lamented) many times on this site before. Have a look at these questions:\n\n\nWhy do quickmapservices basemap labels shrink when printed?\nHow to increase label size of &hellip; ",
+            "title": "QGIS 2.18 QuickMapServices basemap labels shrink when exported to PDF from Print Composer"
+        },
+        {
+            "tags": [
+                "python",
+                "mapscript",
+                "django-raster",
+                "django-wms"
+            ],
+            "question_score": 11,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 0,
+            "is_answered": false,
+            "question_id": 241483,
+            "item_type": "question",
+            "score": 11,
+            "last_activity_date": 1552488780,
+            "creation_date": 1495598005,
+            "body": "I am trying to build raster summarizing features into a GeoDjango webmap,\nand would like to use the django-raster and django-wms packages to do so. I believe that I have them set up correctly, but am hitting errors when I try to install the MapScript Python bindings for MapServer (necessary for\ndjango-wms).\n\nI believe there is a compatibility error with Python 3 and MapScript, but\nam unsure of how to resolve them. I found this forum-post &amp; GitHub issue , but unfortunately my software development knowledge is not solid enough to make much sense of them.\n\nHas anyone compiled MapServer/MapScript with Python 3 recently, or know of any information per updating the software for compatibility with Python 3+?\n",
+            "excerpt": "I am trying to build raster summarizing features into a GeoDjango <span class=\"highlight\">webmap</span>,\nand would like to use the django-raster and django-wms packages to do so. &hellip; ",
+            "title": "MapScript with Python 3"
+        },
+        {
+            "tags": [
+                "arcgis-online"
+            ],
+            "question_score": 9,
+            "is_accepted": true,
+            "answer_id": 60314,
+            "is_answered": false,
+            "question_id": 60311,
+            "item_type": "answer",
+            "score": 10,
+            "last_activity_date": 1368112649,
+            "creation_date": 1368112649,
+            "body": "I have been using ArcGIS Online for the past several months for hosting data to be served in a custom JavaScript web application.  Here is a list of some of the pros and cons I have found while working with ArcGIS Online:\n\nCONS:\n\n\nSomewhat less flexible than a traditional ArcGIS Server in terms of hosting services and mapping capabilities\nNo labeling capabilities (that I have found)\nNo Geoprocessing Services (though I&#39;m told that they&#39;re coming)\nLimited Role-Based Security (Security is set on the service so all users have same permissions aside from content authors)\nUser interface seems more suited for sharing data within an organization and is not as presentable for sharing data with clients\nLimited support for developers\n\n\nPROS:\n\n\nSaved us from purchasing ArcGIS Server\nFairly easy to get up and running\nConfiguration of webmaps is very simple and can manage all the data needed for a web application\nService Credit Usage is fairly reasonable (I&#39;ve been going 6 months now and only used 50 credits)\nIntegration with ArcGIS Desktop (v 10.1+)\nBuilt In Security\n\n\nThat&#39;s all I can think of for now.  It can be a great tool for particular purposes.  Although it is saving us money using ArcGIS Online instead of ArcGIS Server, as a developer it is definitely much more limited and we have had to use a fair amount of workarounds.\n",
+            "excerpt": "I have been using ArcGIS Online for the past several months for hosting data to be served in a custom JavaScript web application.  Here is a list of some of the pros and cons I have found while workin &hellip; ",
+            "title": "What are Pros and Cons to ArcGIS Online Organizational Account?"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "select-by-location"
+            ],
+            "question_score": 10,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 181057,
+            "item_type": "question",
+            "score": 10,
+            "last_activity_date": 1697230516,
+            "creation_date": 1455678441,
+            "body": "This question refers to the standard ArcGIS Online map, eg http://your-site.maps.arcgis.com/home/webmap/viewer.html\n\nIs it possible to perform a Select By Location, eg to find points from one layer which fall within a polygon layer?\n\nThere are a bunch of operations available under the Analysis menu but I can&#39;t see Select By Location. Is it necessary to build something custom (eg using the ArcGIS JS API, Web AppBuilder, etc) in order to get the Select By Location functionality?\n",
+            "excerpt": "This question refers to the standard ArcGIS Online map, eg http://your-site.maps.arcgis.com/home/<span class=\"highlight\">webmap</span>/viewer.html\n\nIs it possible to perform a Select By Location, eg to find points from one layer which &hellip; ",
+            "title": "Does ArcGIS Online allow Select By Location?"
+        },
+        {
+            "tags": [
+                "gps",
+                "tracking"
+            ],
+            "question_score": 9,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 20247,
+            "item_type": "question",
+            "score": 9,
+            "last_activity_date": 1361145811,
+            "creation_date": 1329147024,
+            "body": "Background: I&#39;ve been asked by a friend to estimate the cost of setting up a GPS tracking system for a small fleet of buses, so we can do real time reporting of bus locations via a webmap.\n\nIn my research, I saw three kinds of active GPS trackers:\n\n\nRadio\nSMS\nSatellite\n\n\nSome major considerations are \n\n\nminimizing long term costs, and \nmaking the system as reliable as reasonably possible.  \n\n\nSecondary concerns are minimizing up front cost, latency, difficulty of installation/setup, level of support required after the initial setup is complete.  \n\nThe buses run within a 5 mile radius, so radio is feasible.\n\nWith an eye towards reducing long term costs, radio seems good: it would be the only way to run the system without a middleman.  \n\nSMS requires cell phone towers, and satellites require a space program.  I am concerned that a DIY solution with radios might prove to be less reliable, though.  \n\nBut if we bought SMS transmitters that provided the data through a third party API, they could go out of business, or have unacceptable down time or latency.\n\n\n\nMy question(s): \n\n\nWhat would each of these three solutions look like?  \nWhat hardware is involved?  \nWhat are the trade-offs between them? \nWhat problems have you encountered?  \nHave you used a system that Just Works?\n\n",
+            "excerpt": "Background: I&#39;ve been asked by a friend to estimate the cost of setting up a GPS tracking system for a small fleet of buses, so we can do real time reporting of bus locations via a <span class=\"highlight\">webmap</span>. &hellip; ",
+            "title": "Overview of GPS tracking system technologies"
+        },
+        {
+            "tags": [
+                "wms",
+                "sentinel-2"
+            ],
+            "question_score": 9,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 253034,
+            "item_type": "question",
+            "score": 9,
+            "last_activity_date": 1530617522,
+            "creation_date": 1503496526,
+            "body": "I&#39;m looking for a simple solution to display the latest available Sentinel 2 imagery (true color) in a webmap, using e.g. Leaflet or OpenLayers, for instance with a WMS or a XYZ layer. I thought this kind of web-service would be provided by some agency/company for free, but I cannot find one. \n\nI found this &quot;sentinel-hub&quot; company that proposes WMS but it is not free. (BTW I don&#39;t like how they mislead users by calling themselves &quot;hub&quot; while they seem to have nothing to do with the official Copernicus Data Hub.) \n\nI know I can download Sentinel data (see this well-documented post) but I don&#39;t want to process and serve the data.\n\nEDIT: \n\nBy the latest imagery, I mean the latest cloud-free imagery. I think there are some flags on the Sentinel 2 imagery for this (clouds/no-clouds). I am looking for a specific location in Africa, but a global product would be fine. \n\nAm I missing something obvious? \n",
+            "excerpt": "I&#39;m looking for a simple solution to display the latest available Sentinel 2 imagery (true color) in a <span class=\"highlight\">webmap</span>, using e.g. Leaflet or OpenLayers, for instance with a WMS or a XYZ layer. &hellip; ",
+            "title": "Sentinel 2 imagery as a webservice in a leaflet or openlayers map"
+        },
+        {
+            "tags": [
+                "imagery",
+                "pictometry"
+            ],
+            "question_score": 8,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 10164,
+            "item_type": "question",
+            "score": 8,
+            "last_activity_date": 1306269817,
+            "creation_date": 1306250792,
+            "body": "I am wondering if anyone has worked with Pictometry in GIS and their .pmi files.  I recently acquired imagery from them for my area and have discovered that I cannot add the pmi files to the webmap, I presume I would have to export them.  The problem is that there are literally thousands of images and the export would be unrealistic (I&#39;m not very happy with their deliverables, wasn&#39;t involved in the acquisition process).  Has anybody worked much with their imagery and have any insights in how to best use it in GIS?\n",
+            "excerpt": "I recently acquired imagery from them for my area and have discovered that I cannot add the pmi files to the <span class=\"highlight\">webmap</span>, I presume I would have to export them. &hellip; ",
+            "title": "Use of Pictometry images in GIS"
+        },
+        {
+            "tags": [
+                "arcgis-online"
+            ],
+            "question_score": 6,
+            "is_accepted": true,
+            "answer_id": 182804,
+            "is_answered": false,
+            "question_id": 182730,
+            "item_type": "answer",
+            "score": 8,
+            "last_activity_date": 1483477059,
+            "creation_date": 1456785574,
+            "body": "ArcGIS Online Assistant (free) and Admin Tools for ArcGIS Online (Pro) (paid) offer solutions for moving items to a different organization.\n\nArcGIS Online Assistant is more limited than Admin Tools for ArcGIS Online (Pro). Most notably, the paid Admin Tools for ArcGIS Online (Pro) clone tool will update references in web apps and web maps to the new versions of the feature services copied to the new org.\n\nIn some cases, especially with a relatively small number of items to move you can use the free ArcGIS Online Assistant to move webmaps and feature services, then use the &quot;Update Web Maps Services URLs&quot; tool in the free version of Admin Tools for ArcGIS Online to update the web maps to use the new feature service URLs. \n\nAnother limitation of the free ArcGIS Online Assistant is that it doesn&#39;t move files such as image files.\n",
+            "excerpt": "ArcGIS Online Assistant (free) and Admin Tools for ArcGIS Online (Pro) (paid) offer solutions for moving items to a different organization.\n\nArcGIS Online Assistant is more limited than Admin Tools fo &hellip; ",
+            "title": "&quot;Transferring&quot; ArcGIS Online content from one organization to another"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "sql-server"
+            ],
+            "question_score": 8,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 63543,
+            "item_type": "question",
+            "score": 8,
+            "last_activity_date": 1371228167,
+            "creation_date": 1371221722,
+            "body": "I have heard of people using the ESRI Javascript API to create webmaps with spatial data from SQL Server or other RDBMS&#39;s.  From what I can tell, they are not using ArcGIS Server as a middleware.  In particular, I recently heard of a company that uses a SQL Server database with spatial types and Entity Framework to link the database to the app, but then they are using the ESRI JS API on the front end to render the data.\n\nThis is something that really interests me as I have worked with SQL Server, Entity Framework, ASP.Net, and the JS API separately and I do not have access to ArcGIS Server.  Does anyone know of a particular architecture or workflow for simply using the JS API as a front end for a non ESRI backend?\n",
+            "excerpt": "I have heard of people using the ESRI Javascript API to create webmaps with spatial data from SQL Server or other RDBMS&#39;s.  From what I can tell, they are not using ArcGIS Server as a middleware.  In  &hellip; ",
+            "title": "How to use the ESRI JS API to map SQL Server Spatial Types without ArcGIS Server"
+        },
+        {
+            "tags": [
+                "qgis",
+                "openstreetmap",
+                "openlayers",
+                "web-mapping",
+                "tiles"
+            ],
+            "question_score": 26,
+            "is_accepted": false,
+            "answer_id": 9925,
+            "is_answered": false,
+            "question_id": 9864,
+            "item_type": "answer",
+            "score": 8,
+            "last_activity_date": 1305780380,
+            "creation_date": 1305779984,
+            "body": "\nbeing able to show categorized polygons in a thematic map (- if possible, it would be nice to get popups or to be able to retrieve attribute information - but that&#39;s highly optional)\nI would prefer to do most work (styling, etc) in QGIS\nOSM as base map would be perfectly fine\n\nAll this can be done within QGIS and the  plugin.  The workflow is simple:\n\nStyle your data in QGIS.  Use the old symbology as I had issues with the  when using the  plugin.\n\nLaunch the  plugin and define the openlayers settings (such as map size, map controls, basemap, etc).  This will create a directory containing the  and your data layers converted as  files.\n\nUpload the directory into the webserver.\n\n\nNote that this is only for simple webmap.  For creating custom basemaps and other webmapping features, check out iant and Peter&#39;s answers.\n",
+            "excerpt": "Note that this is only for simple <span class=\"highlight\">webmap</span>.  For creating custom basemaps and other webmapping features, check out iant and Peter&#39;s answers. &hellip; ",
+            "title": "Creating a small web-mapping/map-tiling service"
+        },
+        {
+            "tags": [
+                "qgis",
+                "labeling",
+                "length",
+                "string",
+                "limitations"
+            ],
+            "question_score": 8,
+            "is_accepted": false,
+            "answer_id": 381895,
+            "is_answered": false,
+            "question_id": 381893,
+            "item_type": "answer",
+            "score": 8,
+            "last_activity_date": 1609286359,
+            "creation_date": 1607882356,
+            "body": "After experimenting a little bit, I can confirm that QGIS has definitely no limitation of 1000 characters or less (as the initial form of the question suggested). Empirical evidence suggests that the limit of characters for a label is 2^15 - 8 = 32.760 characters - if pasted directly in the label field. If the label is based on an attribute, potential limits in the field length of the data format of the layer&#39;s source (file or database) apply.\nSee my screenshot, where I pasted a blindtext created in Word and counted as 17.016 characters (!). As you can see, the text displays as a label of the point in the bottom left of the map canvas.\nI also tried longer labels. An empirical value where QGIS clipped the text at the end was reached with 32.760 characters (near 32.768 = 2^15). So you could include a shorter term paper inside of a label text. That sayed means that the limitations are definitely more on the side of visualization, as MrXsquared already mentioned in his comment, than technical abilities of QGIS. QGIS is definitely able to display really very, very long labels.\nThe problem in your case has been another one (solved in anotoher answer). In any case, always make sure when using a field name as label if the data provider format has some limitations. I pasted the text directly with simple quotation marks : , thus not using the content of an attribute field. So we really speak here about label length, not lenght of field content - we have to clearly distinguish between them.\nWhat you also have to be aware of is line wrapping. Maybe when lines get too long (or when the labeled geometry feature is not visible on the map canvas) the label does not render. See this answer here: https://gis.stackexchange.com/a/381205/88814\n\nLabels of such a length are definitely not established practice - a label with 30 (!) characters is already characterized as &quot;very long&quot;:\n\nSometimes labels are very long, such as &quot;River of the Big Dry Blue\nReef&quot;\n\nIt would be interesting what you want to use such long labels for. Or is it just curiosity for the technical limitations of the feature?\nFor (dynamic) webmaps, anyway the placement of the labels changes with every zoom level (and panning), so I would use pop-ups, have a look at actions.\nFor print output, in Print Layouts and Reports, you have textfields at your disposal.\n",
+            "excerpt": "After experimenting a little bit, I can confirm that QGIS has definitely no limitation of 1000 characters or less (as the initial form of the question suggested). Empirical evidence suggests that the  &hellip; ",
+            "title": "What is the maximum number of characters for a label in QGIS 3?"
+        },
+        {
+            "tags": [
+                "python",
+                "web-mapping",
+                "software-recommendations",
+                "web-service"
+            ],
+            "question_score": 5,
+            "is_accepted": true,
+            "answer_id": 334424,
+            "is_answered": false,
+            "question_id": 334422,
+            "item_type": "answer",
+            "score": 8,
+            "last_activity_date": 1568101940,
+            "creation_date": 1568101940,
+            "body": "If you use QGIS, you have at least two options to publish your maps without dealing with a server: install qgis2web-Plugin and generate web-maps with openlayers or leaflet:  - you can upload the output to a webspace (if you have one) and your web-map is there. However, export tries to &quot;translate&quot; your QGIS-project as good as possible to openlayers/leaflet, but many details (styling etc.) that work in QGIS will not be rendered in the same manner. So if it is just for publishing some basic maps, it&#39;s good enough. If you know how to adapt the output, the export could be a start and the final styling can be done there.\n\nSecond option and probably the fastest and least complicated way: QGIS Cloud - they have their own webspace you can use: just upload all layers as well as your QGIS-Project with the qgiscloud-plugin and your webmap will appear on their site in the exactly same look as your local QGIS-project. You don&#39;t need any understanding of web-technologies - when you have your QGIS-project ready, just press a few buttons, that&#39;s it. Basic use is free, additional use of webspace with costs. \n\nOf course, you could also use QGIS server:  but then, you have to install/configure it on your own.\n",
+            "excerpt": "option and probably the fastest and least complicated way: QGIS Cloud - they have their own webspace you can use: just upload all layers as well as your QGIS-Project with the qgiscloud-plugin and your <span class=\"highlight\">webmap</span> &hellip; ",
+            "title": "Seeking open source GIS web server"
+        },
+        {
+            "tags": [
+                "google-maps",
+                "arcgis-online",
+                "popup",
+                "bing-maps",
+                "driving"
+            ],
+            "question_score": 8,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 120431,
+            "item_type": "question",
+            "score": 8,
+            "last_activity_date": 1522351757,
+            "creation_date": 1414708723,
+            "body": "I have an ArcGIS webmap with school boundaries. I would like to provide a link in the pop up that takes a public user to a free routing website like Bing or Google with the directions to their neighborhood school already filled in.\n\nhttp://agtrail.rivcoca.org/ The County of Riverside has what I am talking about on their webmaps.\n\nIs this something I will have to create a url for for each school and add it to each school boundary attribute? Or is there a faster way?\n\nI know ESRI can do routing directions but they use up credits and I want to do this without costing my district any more money.\n\nMy scripting skills are very basic but if coding is the only way to do this I am willing to try my best.\n",
+            "excerpt": "I have an ArcGIS <span class=\"highlight\">webmap</span> with school boundaries. &hellip; ",
+            "title": "How to add link in ArcGIS Online web map popup to google or bing driving directions?"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "arcgis-online"
+            ],
+            "question_score": 10,
+            "is_accepted": true,
+            "answer_id": 15178,
+            "is_answered": false,
+            "question_id": 15161,
+            "item_type": "answer",
+            "score": 8,
+            "last_activity_date": 1317329100,
+            "creation_date": 1317328628,
+            "body": "The identity manager needs to do a POST to login to access your webmap. Since you&#39;re hitting arcgis.com, this is a cross domain request so you need to do this via a proxy. Have you set up a proxy for your app?\n\nLooking at the docs, this isn&#39;t clear. We&#39;ll update our documentation to say you need to use a proxy if you want to use a private webmap in an app you host yourself (if you haven&#39;t guessed, I work on the JS API team).\n",
+            "excerpt": "The identity manager needs to do a POST to login to access your <span class=\"highlight\">webmap</span>. Since you&#39;re hitting arcgis.com, this is a cross domain request so you need to do this via a proxy. &hellip; We&#39;ll update our documentation to say you need to use a proxy if you want to use a private <span class=\"highlight\">webmap</span> in an app you host yourself (if you haven&#39;t guessed, I work on the JS API team). &hellip; ",
+            "title": "Using ArcGIS.com map that is not shared with everyone from ArcGIS API for JavaScript?"
+        },
+        {
+            "tags": [
+                "tiles",
+                "tilemill",
+                "merge",
+                "image",
+                "web-mapping"
+            ],
+            "question_score": 8,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 8,
+            "is_answered": true,
+            "question_id": 73946,
+            "item_type": "question",
+            "score": 8,
+            "last_activity_date": 1641698193,
+            "creation_date": 1381372988,
+            "body": "Is there an easy way to download a bunch of web map tiles (in /z/x/y.png format) and stitch them together into a single large image? I could probably script this using ImageMagick, but would prefer not to invent another wheel.\n\n(The tiles in question are made by me in TileMill. I&#39;m having serious problems with TileMill&#39;s export feature, and thought this might be a workaround.)\n\nMac or Linux only.\n",
+            "excerpt": "Is there an easy way to download a bunch of web map tiles (in /z/x/y.png format) and stitch them together into a single large image? I could probably script this using ImageMagick, but would prefer no &hellip; ",
+            "title": "Automatically download and merge webmap tiles into one big image?"
+        },
+        {
+            "tags": [
+                "arcpy",
+                "arcgis-online",
+                "arcgis-rest-api",
+                "arcrest"
+            ],
+            "question_score": 2,
+            "is_accepted": false,
+            "answer_id": 144718,
+            "is_answered": false,
+            "question_id": 144716,
+            "item_type": "answer",
+            "score": 7,
+            "last_activity_date": 1430427441,
+            "creation_date": 1430426941,
+            "body": "I just uploaded a script uploads a CSV and publishes as a github-gist. You may want to change the input as right now its setup to run at command line and enter parameters manually when you execute.\nThe credit goes to a co-worker of mine who shared this with me. I haven&#39;t extensively tested it, but it worked for the case I was trying. Note that it does rely on the requests module. You&#39;ll need to make sure you&#39;ve downloaded and installed that.\nAlso note the script isn&#39;t setup to re-publish or update/overwrite. I haven&#39;t done any work with re-publishing of a CSV file, but my best guess is you&#39;ll need to:\n\ndelete the CSV from the day before (unless you can overwrite it, then this isn&#39;t necessary)\nupload the new CSV (that is in the gist)\nCall publish on the new CSV (that is in the gist)\nSet overwrite:true in publish. (that is NOT in the gist). See the doc on publish params here\nYou should maintain the original ID because of the overwrite (I haven&#39;t tested this to verify)\n\nI should also note, because you asked in your question, there are no true arcpy functions to upload a CSV to Portal. There are functions in ArcGIS Pro to create webmaps or weblayers and the UploadService Defintion tool, but that requires features in a map. Not a stand alone CSV.\n",
+            "excerpt": "I just uploaded a script uploads a CSV and publishes as a github-gist. You may want to change the input as right now its setup to run at command line and enter parameters manually when you execute.\nTh &hellip; ",
+            "title": "Add Item and Publish Service with ArcREST or ArcPy"
+        },
+        {
+            "tags": [
+                "web-mapping"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 6927,
+            "item_type": "question",
+            "score": 7,
+            "last_activity_date": 1332247519,
+            "creation_date": 1299605534,
+            "body": "I&#39;d like to set up a webmap that clients can drop into their existing website.\nI&#39;m thinking Geoserver, OpenLayers &amp; GeoExt.\nIt would be very simple slippy map kind of thing. Do I need Geoserver at all then?\nJust want to be able to use WMS/pan/zoom/turn layers on and off.\nIf I ditch GeoServer, then do I need Apache?\n\nAnd where would be the best place to host this?\nCould most hosting companies handle it if there was no Geoserver since OL &amp; GeoExt are just JavaScript? I don&#39;t want to host it myself.\n\nAnyone who could point me in the right direction for a checklist or roadmap to offer up simple webmaps is greatly appreciated. I&#39;m looking for info on setting up the web side of it, since I&#39;m fairly good with GIS already.\n",
+            "excerpt": "I&#39;d like to set up a <span class=\"highlight\">webmap</span> that clients can drop into their existing website.\nI&#39;m thinking Geoserver, OpenLayers &amp; GeoExt.\nIt would be very simple slippy map kind of thing. &hellip; ",
+            "title": "How to set up WebMap"
+        },
+        {
+            "tags": [
+                "arcgis-server",
+                "rest"
+            ],
+            "question_score": 6,
+            "is_accepted": true,
+            "answer_id": 74551,
+            "is_answered": false,
+            "question_id": 74548,
+            "item_type": "answer",
+            "score": 7,
+            "last_activity_date": 1381933120,
+            "creation_date": 1381933120,
+            "body": "It&#39;s a combination of two things really.\n1) How much information can your server handle sending at a given time.\n2) How much information can your client handle displaying.\n\nI can&#39;t answer &quot;why&quot; 1000. A good a guess as any, 1000 individual features drawn on a webmap would really tax the web browser and performance would suffer (a few years back). You can make the argument now that browsers can handle 1000+.\n\nBut to use your example, do the quick math.\nSay you had 100 services. Each service could return 100,000 features. Each feature has 10 attributes. Then make a max request for each service all at the same time. Will the Server/hardware handle that? Will your web server be able to transfer that much data? Is your internet connection fast enough to handle it?\n\nI&#39;d call 1000 a &quot;protective&quot; number. Increase it to what makes sense in your environment as long as you understand the limits of both your Server and Client.\n",
+            "excerpt": "A good a guess as any, 1000 individual features drawn on a <span class=\"highlight\">webmap</span> would really tax the web browser and performance would suffer (a few years back). &hellip; ",
+            "title": "Maximum number of record returned by the server. Why 1000?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "qgis2web",
+                "html-popup"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 258411,
+            "item_type": "question",
+            "score": 7,
+            "last_activity_date": 1507899656,
+            "creation_date": 1507890109,
+            "body": "I have exported a webmap created in qgis2web (QGIS 2.18.13) open layers. There is a list of attributes that I wanted to include in the popup, which are mostly related to a country&#39;s demographic and socioeconomic profile. From the image below however, you will see that the popup is pretty big, out of range and without a scroll.\n\n\n\nI have attempted to edit the qgis2web.css file within resources to try and address some of the points but I am completely new to CSS so am unfamiliar with the syntax... Could any of you please help to:\n\n\nAdjust the width/height of the popup\nAbility to scroll through the popup\n\n\n\n\n\n",
+            "excerpt": "I have exported a <span class=\"highlight\">webmap</span> created in qgis2web (QGIS 2.18.13) open layers. &hellip; ",
+            "title": "qgis2web popup editing"
+        },
+        {
+            "tags": [
+                "qgis",
+                "wgs84",
+                "utm"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 30193,
+            "item_type": "question",
+            "score": 7,
+            "last_activity_date": 1697505339,
+            "creation_date": 1343142232,
+            "body": "I am unable to convert from the project&#39;s coordinate system to a different one using QGIS 1.8.0.\nI have a .shp file with a certain coordinate system information (WGS84 EPSG:4326 according to QGIS ). I wish to convert this to WGS84/UTM 32U.\nNow, WGS84/UTM 32N but not [...] 32U exists in the KBS list if I use [...]32 N it does not change anything.\nIf I compare the coordinates in my project in WGS84 with that from 2 different webmap applications in WGS84/UTM 32U there are these following difference:\n3607000 E / 5738000 N in the .shp and\n607000 E / 5738000 N in the .shp in the web application with an seemingly difference of ~100m west and a ~2000m north shift of the .shp.\nDoes someone have an idea what the problem might be?\nCan I download more Coordinate systems (i.e. WGS84/UTM 32U) for QGIS somewhere?\n",
+            "excerpt": "If I compare the coordinates in my project in WGS84 with that from 2 different <span class=\"highlight\">webmap</span> applications in WGS84/UTM 32U there are these following difference:\n3607000 E / 5738000 N in the .shp and\n607000 E &hellip; ",
+            "title": "How to convert from EPSG:4326 to WGS84/UTM 32U?"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "arcgis-pro",
+                "arcgis-python-api"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 309685,
+            "item_type": "question",
+            "score": 7,
+            "last_activity_date": 1618589808,
+            "creation_date": 1548285814,
+            "body": "I&#39;m trying to follow the steps in the Esri blog post Updating your hosted feature services with ArcGIS Pro and the ArcGIS API for Python but am running into an error.\n\nTo test this I published a simple stand-alone file GDB into an ArcGIS Online web map using ArcGIS Pro&#39;s UI tools. This creates a Service Definition, WebMap and associated Feature Layer on ArcGIS Online.\n\nI then made a simple symbology change in ArcGIS Pro and attempted to push the updates to ArcGIS Online using the script. The script runs correctly as far as these lines:\n\n\n\nI can confirm from the timestamps on ArcGIS Online that the Service Definition has been updated, but the script is falling over when trying to update the associated Feature Layer. The script contains this line:\n\n\n\nThis gives me the error message \n\n\n  RuntimeError: User cant overwrite this service, using this data, as\n  this data is already referring to another service\n\n\nI can confirm that the data doesn&#39;t actually refer to another service since it&#39;s coming from a stand-alone file GDB that isn&#39;t used anywhere else. I&#39;m using the same ArcGIS Online administrator&#39;s login within ArcGIS Pro and the Python script so I&#39;m definitely the owner of the layer.\n\nHow can I overwrite the feature layer using the latest changes in the ArcGIS Pro document?\n",
+            "excerpt": "This creates a Service Definition, <span class=\"highlight\">WebMap</span> and associated Feature Layer on ArcGIS Online. &hellip; ",
+            "title": "How to update a hosted feature service on ArcGIS Online using the Python API for ArcGIS Pro?"
+        },
+        {
+            "tags": [
+                "web-mapping",
+                "scale",
+                "cartography",
+                "desktop-gis"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 61613,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1369296996,
+            "creation_date": 1369287542,
+            "body": "I&#39;m having trouble understanding the meaning of the concept of scale when it comes to maps on screen, i.e. either in a Desktop GIS or in a WebMap.\n\nWhen it comes to paper maps, the idea is very clear. The Scale is the ratio of a particular distance on the map, to the same distance on the ground.\n\nBut when it comes to maps on screen, the same concept cannot be applied. Firstly different screens do not have the same pixel size. It might be that a 14 inch monitor and a 24 inch monitor could have the same resolution (in terms of pixels). Then comes the issue of dpi. An iOS device with retina display has a dpi several times that of my work-station monitor. So 1 cm on my screen might show a different distance than 1 cm on your screen.\n\nSo what does the scale of a map in digital cartography mean? What does it mean, when I see the scale of a map is 1:180,000 in ArcMap?\n\n\n\nAside\nThis question came about because of several ArcMap Documents I received from a client who publishes paper maps.\nThe paper map is published at 1:180,000, but at that scale the map looks terrible. It&#39;s only when I zoom in, does the map look good. With trial and error, I found that the map looks best on screen at about 3 times the scale, i.e. at 1:60,000\n",
+            "excerpt": "I&#39;m having trouble understanding the meaning of the concept of scale when it comes to maps on screen, i.e. either in a Desktop GIS or in a <span class=\"highlight\">WebMap</span>. &hellip; ",
+            "title": "What does Scale mean in the reference of Desktop GIS or WebGIS?"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "popup"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 158640,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1498997862,
+            "creation_date": 1439862566,
+            "body": "I&#39;ve noticed when embedding an ArcGIS Online webmap which has a popup with links on it, that there seems to be no way to have the popup link open in the current window. It will always open in a new window.\n\nThere are no configuration options for link @targets in the ArcGIS Online popup configuration tool and if you try manually setting the target attribute of a popup link to target=&quot;_top&quot; or &quot;_parent&quot; that value will be overwritten as target=&#39;_blank&#39; and thus links will open in a new window.\n\nThis means you can&#39;t really integrate the map with your page, because users are taken outside the original window and you have to figure out a way to get them back in. \n\nI wondered if anyone has a workaround and why ArcGIS Online insists on this behaviour?\n",
+            "excerpt": "I&#39;ve noticed when embedding an ArcGIS Online <span class=\"highlight\">webmap</span> which has a popup with links on it, that there seems to be no way to have the popup link open in the current window. &hellip; ",
+            "title": "Opening links in same window with ArcGIS Online Popup?"
+        },
+        {
+            "tags": [
+                "arcgis-server",
+                "arcgis-maps-sdk-javascript",
+                "arcgis-flex-api",
+                "printing",
+                "arcgis-rest-api"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 73568,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1411075769,
+            "creation_date": 1381121521,
+            "body": "I&#39;m trying to do a print export using arcgis 10.1 and latest esri jsapi.\n\nIs there any out of the box way that I can extract out  from a given webmap? \n\n generates a  object on its execute method. \n\nI can capture the request parameter while posting but I need much cleaner approach. I have to post this to another application which works as a proxy between my client and server. \n\nPlease help!   \n",
+            "excerpt": "Is there any out of the box way that I can extract out Web_Map_as_JSON from a given <span class=\"highlight\">webmap</span>? \n\nesri.tasks.PrintTask generates a Web_Map_as_JSON object on its execute method. &hellip; ",
+            "title": "Web_Map_as_JSON from latest esri jsapi?"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "c#",
+                "authentication",
+                "arcgis-portal"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 256849,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1522195633,
+            "creation_date": 1506556877,
+            "body": "I have an ASP.NET MVC web application that is authenticating users server-side against ArcGIS Portal successfully using Owin.Security.Providers.ArcGISPortal.\n\nI would like to use the granted authorization client-side in the browser without requiring the user to login a second time via ArcGIS&#39;s JavaScript API. Does anyone have any pointers regarding how to obtain a relevant token and pass this through client-side to access portal secured web maps, etc.?\n\nThere is a  that I obtain via ArcGISPortalAuthenticationHandler and make available as a claim in order to share the access token.\n\nAny ideas? If you know of a working example for ArcGIS Online then this could also help me as ArcGIS Online and ArcGIS Portal seem to be identical in their mechanics.\n\nFurther investigation...\n\nFollowing the linked example found through the documentation for esri.IdentityManager.registerToken(), I&#39;ve tried the following method to share the access token:\n\n\n\nBut I&#39;m still not getting access to the webmap. I see a html login modal over the empty map div with the title &quot;Please sign in to access the item on https://[HOST]/arcgis (b11824af61df463586dad40d1df7abbd)&quot;.\n\nIn the console log I see the following message logged:\n\n\n\nand for the network request to\n\nhttps://[HOST]/arcgis/sharing/rest/content/items/b11824af61df463586dad40d1df7abbd?f=json&amp;callback=dojo.io.script.jsonp_dojoIoScript1._jsonpCallback\n\nI see the following response:\n\n\n",
+            "excerpt": "isAdmin: false,\n        ssl: false,\n        creationTime: user.userAccessTokenIssued,\n        scope: &quot;server&quot;\n    }]\n};\nesriId.initialize(credentialsJSON);\n\n\nBut I&#39;m still not getting access to the <span class=\"highlight\">webmap</span> &hellip; ",
+            "title": "ArcGIS Portal use server-side obtained authorization in the client / JavaScript"
+        },
+        {
+            "tags": [
+                "javascript",
+                "arcgis-maps-sdk-javascript",
+                "editing",
+                "popup",
+                "arcgis-online"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 48864,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1562148320,
+            "creation_date": 1358954667,
+            "body": "I am writing my first ArcGIS Javascript API web map application and consuming a web map authored in ArcGIS Online.  The ArcGIS Online web map apparently does most of the work for me in terms of symbology, editing templates, and even popups.\n\nFor my application, I am trying to allow the user to edit features, but not all the time.  I am able to toggle the editor on and off with the click of a button.  The problem is that I have not been able to toggle the default popups on and off so that the user can edit attributes.  Even when editing is enabled, the default non-editable popup appears when you click on a feature.  The only way to avoid this is to use the  option when calling .  However, this means that when editing is disabled nothing happens when you click on a feature.\n\nHere is my code.  This has all been adapted from several samples provided in the ArcGIS Javascript API documentation.\n\n\n\nI realize that I could recreate a custom  and , but since this is already done automatically by the API, it would be nice if I didn&#39;t have to.\n\nI tried to get the  and  from the response given by  and then  and  when the editor is disabled and enabled, but the default popups remained even after I called .\n\nAny help would be greatly appreciated.\n",
+            "excerpt": "= new esri.tasks.GeometryService(&quot;http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer&quot;);\n\n            var urlObject = esri.urlToObject(document.location.href);\n            var <span class=\"highlight\">webmap</span> &hellip; id=&quot; + <span class=\"highlight\">webmap</span> + &quot;&#39;&gt;View data details&lt;/a&gt;&quot;;\n\n                layers = response.itemInfo.itemData.operationalLayers;\n                // clickHandle = response.clickEventHandle;\n                // clickListener &hellip; ",
+            "title": "Turn Popups On/Off in ArcGIS Online Webmap via Javascript API Web Application"
+        },
+        {
+            "tags": [
+                "leaflet",
+                "geojson",
+                "csv",
+                "performance"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 189500,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1529531591,
+            "creation_date": 1460648620,
+            "body": "My goal:\n\nStore the attributes of a geojson in a csv file\nAllow a non-GIS user to edit a cloud-hosted csv file which then updates a webmap\nHave the web map be a static app with no GIS/PostGIS/SQL etc server involved\n\nMy method:\n\nLoad a csv (from say dropbox) and a geojson stored on the webserver\nJoin the csv to the geojson file using javascript\nStyle the polygons using the field added from the csv\n\nThis works, but it is too slow...\nThe loading of the csv happens in about 1 second, and the geojson tiles get created almost instantly. But the join function using  takes between 7 and 10 seconds - on a desktop machine with a fast internet connection. On a phone performance for the join is awful, maybe 30-50 seconds.\nIs there a faster/better way to join the geojson to the csv?\nI could be going about this in the absolute wrong way altogether.\nI am using leaflet 0.7.7. The geojson and csv contain 4500 features/rows.\nUsing  after the Papa.parse, eachLayer and after the tile script gives me this:\n\nAnd without the join:\n\nHere is the code (wellZoneParcelsData is the omnivore variable and wellZoneParcels is the L.geoJson):\n\n",
+            "excerpt": "My goal:\n\nStore the attributes of a geojson in a csv file\nAllow a non-GIS user to edit a cloud-hosted csv file which then updates a <span class=\"highlight\">webmap</span>\nHave the web map be a static app with no GIS/PostGIS/SQL etc server &hellip; ",
+            "title": "Joining CSV to GeoJSON in Leaflet?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "openstreetmap",
+                "openlayers",
+                "web-mapping",
+                "tiles"
+            ],
+            "question_score": 26,
+            "is_accepted": false,
+            "answer_id": 12608,
+            "is_answered": false,
+            "question_id": 9864,
+            "item_type": "answer",
+            "score": 6,
+            "last_activity_date": 1311601590,
+            "creation_date": 1311601590,
+            "body": "I decided to provide some information on which way I finally went for my tiled map service. Pure JavaScript and GeoJSONs weren&#39;t a solution, because I have to handle roughly 40k polygons and 33k points. So I went for tiling. Oh, and I still don&#39;t have a access to root server, so I can&#39;t set up GeoServer or something similar (wouldn&#39;t be financially feasible for a single client at the moment)\n\nAfter some researching and reading, I finally settled with OpenLayers (after some showcasing with GMaps). Eric Hazzard&#39;s great book &quot;OpenLayers 2.10&quot; (Packt Publishing, 2011) really, really helped me a lot because it also covers some JavaScript basics and debugging tips.\n\nI did all my vector data work in QGIS, of course, thats definitely the way to go for a small freelancer like me (I also know quite some ArcGIS stuff from university, but QGIS has been offering all I ever needed so far).\n\nStyling the map and creating the tiles was a bigger challenge. First, I went along with &quot;GMapCreator&quot; by CASA, but layering multiple shapefiles proved to be tedious (I have to provide point data over polygons, and then a municipal borderline enclosing everything). It is absolutely possible to do this in GMapsCreator (and I did it for the showcase stage), but it takes 3 full rendering cycles (first you create tiles, then the existing tiles get &quot;overdrawn&quot; with later features - rendering in the right order is important!), and the styling menus are slightly bulky and confusing. Saving your map and editing it later is also a complicated issue.\n\nTileMill seemed very promising, especially their CSS-like styling, so I looked into it. Unfortunately, it&#39;s Mac or Linux only, so that might scare some people off. I really liked what I saw, so I set up a Ubuntu partition on my hard-drive, downloaded it and styled my maps. Documentation on the styling syntax is sometimes a little scarce, but watching their demo video (linked on the main site) answers almost everything. It&#39;s possible to do some interesting stuff with nested and/or conditional styles, and some basic CSS understanding should really get you where you want to go.\n\nIn the end, TileMill renders a nice, single *.mbtiles file. I don&#39;t think there is a way to directly display these in OpenLayers (at least I couldn&#39;t find one?), so it was time to use another tool: mbutil. This tool &quot;unzips&quot; the mbtiles-File in to a regular folder structure containing the tiled pngs of my data on the selected zoom levels.\n\nFinally, I uploaded all these files to my FTP-Server, did some heavy reading on OL to get my webmap up and going (you add the created tiles as a TMS layer, but guessing the right source url and layer name took some time and googling) and then burned some hours fiddling around with basic html/CSS issues. I wanted a 100% width/height map with a floating legend  following my clients &quot;corporate&quot; (it&#39;s a municipality, as mentioned) identity guidelines.\n\nOh, and so far I use Google Maps as base layers, but that might get replaced soon by some custom aerial pictures served via WMS (not provided by me, but the state&#39;s survey and geodata administration).\n\nI hope I didn&#39;t forget anything important, but if I did, please feel free to ask! I&#39;ll check this thread occasionally.\n",
+            "excerpt": "Finally, I uploaded all these files to my FTP-Server, did some heavy reading on OL to get my <span class=\"highlight\">webmap</span> up and going (you add the created tiles as a TMS layer, but guessing the right source url and layer name &hellip; ",
+            "title": "Creating a small web-mapping/map-tiling service"
+        },
+        {
+            "tags": [
+                "open-source-gis",
+                "geoext"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 8385,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1327581612,
+            "creation_date": 1302540105,
+            "body": "I want to know, can we use GeoExt freely? is there any need to purchase some license for using GeoExt ?\n\nActually i am already working with free Open source tools (OpenLayers+GeoServer) for my webMap applications. But i need some specific functionality which is possible with GeoExt. so can i use GeoExt freely with Openlayers and GeoServer ?\n",
+            "excerpt": "Actually i am already working with free Open source tools (OpenLayers+GeoServer) for my <span class=\"highlight\">webMap</span> applications. &hellip; ",
+            "title": "Can we use GeoExt Freely?"
+        },
+        {
+            "tags": [
+                "openlayers"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 126676,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1438263341,
+            "creation_date": 1418680676,
+            "body": "I&#39;m working on a webmap using  and vector layers, . I&#39;ve managed to render the layers and add click interactions:\n\n\n\nThe interaction works fine, it sets a new style to the selected feature (borders of the selected country etc). \n\nWhat I want is to retrieve the selected feature&#39;s id from the geoJSON file and use that to know what country is selected. Depending on what country is selected a network (lines) will be drawn from that country to other countries, retrieved from a DB. \n\nIs there a way of doing this? I&#39;ve tried the following (without proper formatting): \n\n\n\nThis gives me an  that is undefined even though the feature has an  in the geoJSON file. \n\nIs there another way of doing this? I&#39;ve searched around the web and this forum without finding an answer. \n\nThis is a snippet of my geoJSON file, all features have the same properties:\n\n\n",
+            "excerpt": "I&#39;m working on a <span class=\"highlight\">webmap</span> using OpenLayers 3 and vector layers, geoJSON. &hellip; ",
+            "title": "Retrieve attributes from a GeoJSON feature in openlayers 3"
+        },
+        {
+            "tags": [
+                "geojson",
+                "web-mapping",
+                "rest"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 297267,
+            "item_type": "question",
+            "score": 6,
+            "last_activity_date": 1538069473,
+            "creation_date": 1538060444,
+            "body": "I would like to extract the pipeline geometries from https://www.arcgis.com/home/webmap/viewer.html?webmap=a00c3b5cee4e4fe0b238b5e05ed80204\n\nIt shows the existing gas &amp; oil pipelines crossing through Pennsylvania and was created by FracTracker for http://www.roverpipelinefacts.com/about/route.html . Despite it&#39;s a NGO they don&#39;t allow you downloading their data.\n\nIf I should know the REST FeatureServer URL I could download it (EXAMPLE):\n\n\n\nHow can I find out this URL for the web map from above?\n",
+            "excerpt": "I would like to extract the pipeline geometries from https://www.arcgis.com/home/<span class=\"highlight\">webmap</span>/viewer.html? &hellip; <span class=\"highlight\">webmap</span>=a00c3b5cee4e4fe0b238b5e05ed80204\n\nIt shows the existing gas &amp; oil pipelines crossing through Pennsylvania and was created by FracTracker for http://www.roverpipelinefacts.com/about/route.html . &hellip; ",
+            "title": "Find out ESRI REST URL for web map which is hiding it"
+        },
+        {
+            "tags": [
+                "geoprocessing",
+                "google-maps"
+            ],
+            "question_score": 6,
+            "is_accepted": false,
+            "answer_id": 651,
+            "is_answered": false,
+            "question_id": 627,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1280823366,
+            "creation_date": 1280785196,
+            "body": "There are no extensive Javascript computational geometry implementations: most geometry libraries rely on JTS or its C++ port GEOS, neither of which have yet been ported to native Javascript. Most people handle this by using a spatial database such as PostGIS to manipulate geometries server-side, and then pass back the results with GeoJSON or similar. OpenGeo has an example application which does unions of input geometries from a webmap that might be of help.\n\nIf you&#39;d like to implement the algorithm yourself in Javascript, check this SO post which describes the general process, which involves finding and removing interior points from the joint geometries.\n",
+            "excerpt": "OpenGeo has an example application which does unions of input geometries from a <span class=\"highlight\">webmap</span> that might be of help. &hellip; ",
+            "title": "Is there a way in the Google Maps API to perform a union?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "openlayers",
+                "qgis2web"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 154651,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1453803461,
+            "creation_date": 1437052605,
+            "body": "I am using the QGIS2WEB plugin for QGIS. I have added vector features as well as a raster image (.tif or .ecw) format.\n\nWhen I try to export the webmap, all the layers are visible expect the rasters. Why is this?\n",
+            "excerpt": "When I try to export the <span class=\"highlight\">webmap</span>, all the layers are visible expect the rasters. Why is this? &hellip; ",
+            "title": "QGIS2WEB Plugin (openLayer3) for QGIS not exporting raster images"
+        },
+        {
+            "tags": [
+                "geoserver",
+                "openlayers"
+            ],
+            "question_score": 1,
+            "is_accepted": false,
+            "answer_id": 269983,
+            "is_answered": false,
+            "question_id": 269980,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1517487171,
+            "creation_date": 1517487171,
+            "body": "No, it will not be visible to anyone but you. When a user displays your webmap, the code will try to read from his computer (), which doesn&#39;t have a running Geoserver, and will fail.\n",
+            "excerpt": "When a user displays your <span class=\"highlight\">webmap</span>, the code will try to read from his computer (localhost), which doesn&#39;t have a running Geoserver, and will fail. &hellip; ",
+            "title": "Local GeoServer public access"
+        },
+        {
+            "tags": [
+                "shapefile",
+                "web-mapping",
+                "software-recommendations",
+                "php",
+                "apache"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "answer_id": 68613,
+            "is_answered": false,
+            "question_id": 68603,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1376421134,
+            "creation_date": 1376421134,
+            "body": "A quick solution to serve up shapefiles on a basemap in a webapp is through a free arcgis.com account. They allow you upload .shp files, symbolize, and lay them on a base map. The share tool allows provides a html script that can be copied. I served up some symbolized counties to my blogger page in a webmap. Note that ESRI is trying to monetize arcgis.com but this did work recently. \n\nOyvind&#39;s post is valid as well. \n",
+            "excerpt": "I served up some symbolized counties to my blogger page in a <span class=\"highlight\">webmap</span>. Note that ESRI is trying to monetize arcgis.com but this did work recently. \n\nOyvind&#39;s post is valid as well. &hellip; ",
+            "title": "Displaying Shapefiles in map in browser and not using Google Maps"
+        },
+        {
+            "tags": [
+                "imagery",
+                "remote-sensing",
+                "download"
+            ],
+            "question_score": 4,
+            "is_accepted": true,
+            "answer_id": 45061,
+            "is_answered": false,
+            "question_id": 44994,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1357151687,
+            "creation_date": 1357151687,
+            "body": "To acquire NAIP for Oregon that includes the NIR band you must contact the OGEO office directly (gisgis.state.or.us or 503-378-2166). The NIR is not available on the download site. \n\nWhen you refer to &quot;historic&quot; NAIP including the NIR band you are going to be somewhat out of luck. Many states still do not include NIR in their contracts and the USDA-APFO option of a NIR band was not officially added to the contract template, as part of NAIP, until 2009. To acquire this data you will have to go state by state. Colorado has an ftp site that you can download the current, quad-level, NAIP that includes the NIR. \n\nI do not believe that Oregon added NIR until the last acquisition of NAIP, but there could be one additional year that includes NIR. For current NAIP (RGB only) for all states, APFO has a webmap service that can be added as a &quot;GIS Server&quot; in ArcGIS (http://gis.apfo.usda.gov/arcgis/services).        \n",
+            "excerpt": "For current NAIP (RGB only) for all states, APFO has a <span class=\"highlight\">webmap</span> service that can be added as a &quot;GIS Server&quot; in ArcGIS (http://gis.apfo.usda.gov/arcgis/services). &hellip; ",
+            "title": "Where to download 4 band NAIP imagery?"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "popup",
+                "arcgis-python-api"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 365197,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1647636368,
+            "creation_date": 1592407671,
+            "body": "I am looking to use the ArcGIS API for Python to enable popups for each layer in a webmap.\nI found Configure Popup Attributes Programmatically with ArcGIS API for Python on GeoNet which addresses how to disable popups for each layer, but I am looking to do the opposite.\nI have also asked Enable Popups for each layer in a webmap Enable Popups for each layer in a webmap using ArcGIS API for Python on GeoNet.\n",
+            "excerpt": "I am looking to use the ArcGIS API for Python to enable popups for each layer in a <span class=\"highlight\">webmap</span>. &hellip; I have also asked Enable Popups for each layer in a <span class=\"highlight\">webmap</span> Enable Popups for each layer in a <span class=\"highlight\">webmap</span> using ArcGIS API for Python on GeoNet. &hellip; ",
+            "title": "Enable Popups for each layer in webmap using ArcGIS API for Python"
+        },
+        {
+            "tags": [
+                "qgis",
+                "raster",
+                "dem",
+                "wgs84",
+                "mapzen"
+            ],
+            "question_score": 2,
+            "is_accepted": true,
+            "answer_id": 431110,
+            "is_answered": false,
+            "question_id": 431108,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1652390215,
+            "creation_date": 1652390215,
+            "body": "No. Mapzen Global Terrain tiles will be designed for use in Web Mercator projection, which only goes to &#177;85.05.. degrees of latitude. From Wikipedia:\n\nBecause the Mercator projects the poles at infinity, a map using the Web Mercator projection cannot show the poles. Services such as Google Maps cut off coverage at 85.051129&#176; north and south. This is not a limitation for street maps, which is the primary purpose for such services. The value 85.051129&#176; is the latitude at which the full projected map becomes a square...\n\nSo it has one useful property: all tiles are square, including the one at zoom 0. But, the point at &#177;90&#176; would be stretched to infinity in order to be rendered as a line along the top or bottom of the map. So the projection just cuts off before that point. That is why Antarctica looks so large, when it&#39;s really about the same size as Australia.\nIf you need estimates of elevation at the poles, you will need to look elsewhere. However if you only ever intend to do stuff on webmaps projected in Web Mercator, there&#39;s no point obtaining the remaining data since you won&#39;t be able to see it.\n",
+            "excerpt": "No. Mapzen Global Terrain tiles will be designed for use in Web Mercator projection, which only goes to &#177;85.05.. degrees of latitude. From Wikipedia:\n\nBecause the Mercator projects the poles at infini &hellip; ",
+            "title": "Saving Mapzen Global Terrain in QGIS with extent layer (-90 to 90 Lat and -180 to 180 Lon)"
+        },
+        {
+            "tags": [
+                "qgis",
+                "arcgis-online",
+                "story-map"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "answer_id": 287331,
+            "is_answered": false,
+            "question_id": 259304,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1529806740,
+            "creation_date": 1529806740,
+            "body": "You can use OGIS Cloud to publish the service as WMS or WMTS as per your requirement.\n\nURL: https://qgiscloud.com/\n\nAnd then add OGC services in the Webmap the is being used by your story map in ArcGIS online.\n\nhttps://doc.arcgis.com/en/arcgis-online/reference/ogc.htm\n",
+            "excerpt": "URL: https://qgiscloud.com/\n\nAnd then add OGC services in the <span class=\"highlight\">Webmap</span> the is being used by your story map in ArcGIS online.\n\nhttps://doc.arcgis.com/en/arcgis-online/reference/ogc.htm &hellip; ",
+            "title": "Can you upload maps from QGIS to ArcGIS Online?"
+        },
+        {
+            "tags": [
+                "web-service"
+            ],
+            "question_score": 4,
+            "is_accepted": true,
+            "answer_id": 656,
+            "is_answered": false,
+            "question_id": 502,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1280794211,
+            "creation_date": 1280794211,
+            "body": "The NGA produced an accessible USNG WMS which should fit the bill. You also might consider downloading USNG shapefiles (webmap) for your area of interest. \n",
+            "excerpt": "You also might consider downloading USNG shapefiles (<span class=\"highlight\">webmap</span>) for your area of interest. &hellip; ",
+            "title": "US National Grid (USNG) map service?"
+        },
+        {
+            "tags": [
+                "arcgis-10.1",
+                "cartography",
+                "symbology",
+                "representation"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 130739,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1520141910,
+            "creation_date": 1421653831,
+            "body": "I have two line traffic maps. I want to display these maps roads as image below. These images show that when I zoom out from map, roads are showing properly.. And two line road never disappear from map. And when I zoom in map, other roads appear properly and two line. How can I do that this trick with ESRI solutions ?\n\nExample - http://www.arcgis.com/home/webmap/viewer.html?webmap=30c24162643b43c291c8151b24674c7f\n\nI follow ESRI&#39;s representation tutorials from this link but I could not get this view. \n\nEDIT 1 - \nAll I want to do is show 2 lines of road every scale. For viewing every scale width of road may be changeable. \n\n\n\n\n\n",
+            "excerpt": "Example - http://www.arcgis.com/home/<span class=\"highlight\">webmap</span>/viewer.html?<span class=\"highlight\">webmap</span>=30c24162643b43c291c8151b24674c7f\n\nI follow ESRI&#39;s representation tutorials from this link but I could not get this view. &hellip; ",
+            "title": "How to display two line traffic road map cartographically?"
+        },
+        {
+            "tags": [
+                "gdal",
+                "ordnance-survey",
+                "wgs84",
+                "gdalwarp"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 14781,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1499683484,
+            "creation_date": 1316462410,
+            "body": "I would like to generate Google/Bing-like map tiles from Ordnance Survey&#39;s 1:25000 and 1:50000 raster maps, which are provided as 4000x4000 UK national grid tiles (GeoTIFF).\n\nA sample tile can be found at http://www.ordnancesurvey.co.uk/docs/sample-data/25k-raster-sample-data.zip .\n\nThanks to this site and others (this is my first time using proper GIS tools), I have succeeded in using gdalwrap to reproject the tiles, and gdal_retile.py to cut the reprojected tile into smaller pieces.\n\nI still have the following questions:\n\n\nthe source files use a color map, so based on my single-tile sample, I\nconverted that to 24bit color in order to be able to use a better\nresampling algorithm than nearest neighbor, but I don&#39;t know how\nscalable that will be to the whole of the UK. Is there a way to get a quality resampling without first converting to 24bit color?\nhow do I get gdalwrap or gdal_retile.py (or another utility) to align the generated tiles to the webmap grid (the world divided into 2^zoom tiles of equal lat-lon delta)? Right now my tiles are the right pixel size, but most likely not aligned to the lat-lon grid nor the zoom level\nthe tiles generated by gdal_retile.py are named according to each one&#39;s location in the source file, but I need to translate that to the global tile number for my zoom level. Do the tools support doing that on the fly, or do I need to post-process?\nusing gdal_retile.py with the -levels option generates sub-directories but the tiles therein are all black; I was expecting the zoomed out pyramid (and fewer tiles, not more, than the default level), should I be using a different option?\neven for this smallish sample, each command seems to take an inordinately long time, and this is on an octo-core MacPro and SSD. Is there a performance guide for GDAL?\n\n\nHere&#39;s what I have been doing, starting with the sx99.tif sample file:\n\n\n\n\n\nInstead of gdal_retile.py, I&#39;ve tried using gdal2tile.py on the pre-warped raster maps.\n\nHowever, while the X coordinate for each of the generated tiles is correct, the Y coordinate seems to be at least double what I am expecting.\n\nI&#39;ve tried explicitly setting the source SRS and target profile, to no effect.\n\n\n\nI can&#39;t understand what&#39;s going wrong. The warped intermediate image looks OK:\n\n\n\nBut the resulting files are in the range of (for zoom level 11): 1003 &lt;= x &lt;= 1004 and 1359 &lt;= y &lt;= 1360, where I was expecting y around 780...\n",
+            "excerpt": "how do I get gdalwrap or gdal_retile.py (or another utility) to align the generated tiles to the <span class=\"highlight\">webmap</span> grid (the world divided into 2^zoom tiles of equal lat-lon delta)? &hellip; ",
+            "title": "Converting Ordnance Survey raster maps to WGS84 webmap tiles"
+        },
+        {
+            "tags": [
+                "openstreetmap",
+                "routing",
+                "general-transit-feed-specification",
+                "opentripplanner"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 233968,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1568891248,
+            "creation_date": 1490787539,
+            "body": "I try using OpenTripPlanner to create a webmap with multimodal routing function. \n\nI followed the instruction on: http://opentripplanner.readthedocs.io/en/latest/Basic-Usage/\n\n\nI downloaded  from: https://repo1.maven.org/maven2/org/opentripplanner/otp/\nI grabbed GTFS data from: https://code.google.com/archive/p/googletransitdatafeed/wikis/PublicFeeds.wiki (download for Berlin:  http://www.vbb.de/de/datei/gtfs-daten.zip)\nAlso got latest osm.pbf file from: http://download.geofabrik.de/ (download for Berlin: http://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf)\nStarted the local server with: ,\nwhereas  and  are located in \n\n\nThe server is starting and I can access the map via http://localhost:8080/\nBut when I want to use the routing function for transit, it always gives me the following error: \n\n\n  No transit times available. The date may be past or too far in the\n  future or there may not be transit service for your trip at the time\n  you chose. (Error 406)\n\n\nMy thoughts are that the GTFS data are somehow broken or not useable for OpenTripPlanner. \n\nSo I used the GTFS Feed Validator (https://github.com/google/transitfeed/wiki/FeedValidator) \n\nThe Results of the GTFS FeedValidator: \n\n\nAgencies: Verkehrsverbund Brandenburg-Berlin, ...   \nRoutes: 1363\nStops: 12845 \nTrips: 204915  \nShapes: 0  \nEffective: June 06, 2013 to December 14, 2013\n\n\nFound these problems:\n19528 warnings\n\n\n87 Duplicate IDs \n1 Expiration Date \n1810 Invalid Values   \n5313 Overlapping Trips In Same Blocks \n5 Stops Too Closes \n12310 Too Fast Travels \n2 Unrecognized Columns\n\n",
+            "excerpt": "I try using OpenTripPlanner to create a <span class=\"highlight\">webmap</span> with multimodal routing function. &hellip; ",
+            "title": "OpenTripPlanner (Error: 406) No transit times available"
+        },
+        {
+            "tags": [
+                "postgis",
+                "geoserver",
+                "leaflet",
+                "geojson",
+                "wfs-t"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 348819,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1580732859,
+            "creation_date": 1580210415,
+            "body": "I have a GeoServer installation on top of a PostGIS database. I am trying to set up a leaflet webmap (using Leaflet WFS-T plugin) so that I can insert, update and delete polygon features. I have managed to get this to work fine for Point features but something seems to be going wrong when inserting polygons. \n\nBelow is the request payload to GeoServer:\n\n\n\nAnd this is the response: \n\n\n\nWhen I look at the geometry type in PostGIS it says it is MultiPolygon so I am conscious that the WFST request is only specifying &#39;polygon&#39;. \n\nBelow is my Leaflet code (I am using Leaflet draw to create the polygons): \n\n\n\nFurthermore, when I use the console to look at the original features pulled from GeoServer they are GeoJSON but when I look at the newly created features they don&#39;t seem to be. They just have an array of coordinates.\n\nEDIT: This may have something to do with GML versions. I.E. Geoserver is expecting the XML of the request to be structured differently. \n",
+            "excerpt": "I am trying to set up a leaflet <span class=\"highlight\">webmap</span> (using Leaflet WFS-T plugin) so that I can insert, update and delete polygon features. &hellip; ",
+            "title": "Leaflet + GeoServer WFST - Inserting Polygons to PostGIS database"
+        },
+        {
+            "tags": [
+                "arcgis-online"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 70200,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1505996712,
+            "creation_date": 1377872172,
+            "body": "I would like to create a webmap from a contacts spreadsheet stored in Google Drive that will update the map automatically when new data is added to the spreadsheet. I know I can do this with an ArcGIS Online Organisation subscription, but are there any other ways?\n",
+            "excerpt": "I would like to create a <span class=\"highlight\">webmap</span> from a contacts spreadsheet stored in Google Drive that will update the map automatically when new data is added to the spreadsheet. &hellip; ",
+            "title": "WebMap that automatically links to Google Drive Spreadsheet"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "update",
+                "feature-service"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 0,
+            "is_answered": false,
+            "question_id": 242770,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1496673148,
+            "creation_date": 1496664755,
+            "body": "This is cross posted to geonet as well: https://geonet.esri.com/thread/196111-updating-feature-service-to-webmap-does-not-update-with-new-data\n\nI have a web feature service on a web map and that map shared through an web app.\nThis service is just a small point layer and I update it every month with updated points. I then upload the layer to agol using the &quot;overwrite&quot; option on my existing point feature service. However my web map does not update with the new points automatically. I have to re-add the service as a new layer and remove the previous one in addition to manually copying my pop-up configs over to the new layer.\nI was under the impression the overwriting the service would in turn have the updates roll out to the web map layer. Am I missing a step here or is this how the overwrite feature works?\n\nRuss lead me to the correct answer to solve this issue. I just needed to set my refresh interval Support docs can be found here: http://doc.arcgis.com/en/arcgis-online/create-maps/set-refresh-interval.htm\n",
+            "excerpt": "This is cross posted to geonet as well: https://geonet.esri.com/thread/196111-updating-feature-service-to-<span class=\"highlight\">webmap</span>-does-not-update-with-new-data\n\nI have a web feature service on a web map and that map shared &hellip; ",
+            "title": "Overwriting Feature Service to webmap does not update with new data in ArcGIS Online?"
+        },
+        {
+            "tags": [
+                "coordinate-system",
+                "openstreetmap",
+                "vector-grid",
+                "antarctica",
+                "openseamap"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 0,
+            "is_answered": false,
+            "question_id": 302175,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1542148104,
+            "creation_date": 1541924715,
+            "body": "I&#39;ve found some maps for Antarctica https://nga.maps.arcgis.com/home/webmap/viewer.html \n\nHow can I show polar coordinate grid for it? \n\nI&#39;ve got the grid source code in grid_wgs.js (I use OpenSeaMap in my software that is based on OpenStreetMap), so I guess I just need to change some mathematical formulas there, but I&#39;ve got no idea how to do that / what to change etc. \n\nHere&#39;s the grid_wgs.js code below.\n\n\n",
+            "excerpt": "I&#39;ve found some maps for Antarctica https://nga.maps.arcgis.com/home/<span class=\"highlight\">webmap</span>/viewer.html \n\nHow can I show polar coordinate grid for it? &hellip; ",
+            "title": "Showing Polar coordinate grid?"
+        },
+        {
+            "tags": [
+                "arcgis-desktop",
+                "arcmap",
+                "arcgis-server",
+                "symbology",
+                "arcgis-10.3"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 177057,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1497975172,
+            "creation_date": 1452892497,
+            "body": "Is there a symbol available through ArcMap (I&#39;m using 10.3.1) that looks somewhat like the Google Maps marker symbol? We have a webmap that was created using Google Maps Engine and apparently we have a need to do this differently now (cough cough). We will be using ArcGIS Server and the ArcGIS javascript API. We thought it would be best if the map changed as little as possible, so I&#39;m looking for one that looks like the old familiar ...\n\nI know that it is possible to create your own symbols using a graphic but the ones I have attempted look pretty horrible. Using some version of the one I just pasted here could potentially work but I wondered if there was one the looks closer than &quot;Circle 3&quot; from the list below (the green circle with a black dot). I could make it red but it doesn&#39;t have that &quot;tied to the map&quot; look that the Google Marker symbol has (not to mention it&#39;s instant recognition value).\n\nI looked through the symbols available to me and didn&#39;t find anything better. Even something remotely close would be fine with me.\n\nArcMap Symbol Selector:\n\n",
+            "excerpt": "We have a <span class=\"highlight\">webmap</span> that was created using Google Maps Engine and apparently we have a need to do this differently now (cough cough). We will be using ArcGIS Server and the ArcGIS javascript API. &hellip; ",
+            "title": "Is there a point symbol for ArcMap that looks like the Google Maps Marker Symbol?"
+        },
+        {
+            "tags": [
+                "arcgis-desktop",
+                "arcpy",
+                "arcgis-server",
+                "geoprocessing-service",
+                "arcgis-10.4"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 0,
+            "is_answered": false,
+            "question_id": 190982,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1461589503,
+            "creation_date": 1461585644,
+            "body": "I have created a geoprocessing service, which can print a webmap(JSON) to a PDF or PNG. The ArcGis for Server and ArcGis for Desktop are running on my workstation. The Website, which host my webmap are also on this workstation. This worked fine until I updated my workstation from windows 7 to windows 10.\n\nThis is the code, which I used to create the geoprocessing service.\n\n\n\nThe main part of the code is from an esri tutorial.\n\nAnd this is my local hosted website.\n\n\n\nNow if I try to print my webmap, this error message comes out:\n\n\n\nIn addition it creates an empty error report and the server log says:\n\n\n  Instance\n  of the service &#39;Printscript2.GPServer&#39; crashed. Please see if an error\n  report was generated in\n  &#39;C:\\arcgisserver\\logs\\BRUNI.ESRI-DE.COM\\errorreports&#39;. To send an\n  error report to Esri, compose an e-mail to ArcGISErrorReport@esri.com\n  and attach the error report file. The containing process\n  for &#39;Printscript2&#39; job &#39;j7a8082331f5842f3b079133bb33e9901&#39; has\n  crashed.\n\n\nWith this logcode from the log, I dont get any helpful informations. The permissions to the ressources should be also okay.\n\nCan anyone help ?\n\nUpdate\n\nIf I run the script before I publish it as a GP, it works fine. But when I run the published GP from Arcmap, it fail too\n\n\n",
+            "excerpt": "I have created a geoprocessing service, which can print a <span class=\"highlight\">webmap</span>(JSON) to a PDF or PNG. The ArcGis for Server and ArcGis for Desktop are running on my workstation. &hellip; The Website, which host my <span class=\"highlight\">webmap</span> are also on this workstation. This worked fine until I updated my workstation from windows 7 to windows 10. &hellip; ",
+            "title": "Geoprocessing Service crash while executing"
+        },
+        {
+            "tags": [
+                "geoserver",
+                "labeling",
+                "sld"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 4,
+            "is_answered": true,
+            "question_id": 108251,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1436510398,
+            "creation_date": 1406189013,
+            "body": "I have problem with the Geoserver.\n\nI have a layer (called &quot;cities&quot;) which contains points with attributes.\n(ID, Name, Layer, etc....)\nI&#39;d like to write out all the names (at now it doesn&#39;t matter if overlap eachother).\nIn the geoserver the points showed correctly but the text-s are missing. Under an exact zoom level the all text shown correctly but above that level nothing. Just the marker point.\n\nThis is my SLD:\n\n\n\nIs there any basic restrictions to the labels or any default settings?\nThanks! :)\n\n\n\nUpdate:\nI updated the SLD with the &quot;conflitresolution&quot;.\nIn the attached image you can see, nothing happened.\nOriginaly the basic map created in Arcgis. The cartographer who originaly (a few years ago) created the map placed every single label to the right place (that time they made paper maps not webmaps). Now I&#39;d like to put almost every label back to their place. The original shape has different layer to bigger and smaller cities and exact anchor point, angle, font size ect....\nSo that is why I&#39;d like to show all label at the same time and scale, because the layera are scale dependent.\n\n\nThanks again :)\n\n\n\nUpdate 2:\nI tired Mario&#39;s code but still the same problem :/\n\n",
+            "excerpt": "I have problem with the Geoserver.\n\nI have a layer (called &quot;cities&quot;) which contains points with attributes.\n(ID, Name, Layer, etc....)\nI&#39;d like to write out all the names (at now it doesn&#39;t matter if  &hellip; ",
+            "title": "Geoserver SLD text symbology"
+        },
+        {
+            "tags": [
+                "leaflet",
+                "wmts"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 268415,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1516286176,
+            "creation_date": 1516271633,
+            "body": "I am using the Leaflet.TileLayer.WMTS plugin (https://github.com/mylen/leaflet.TileLayer.WMTS). However, I believe that this only works with WMTSes which add parameters to  requests as querystring variables in key=val pairs (eg http://www.provider.net/path?var1=val1&amp;var2=val2 etc). I need to add a WMTS which uses a URL path for its parameters (eg http://www.provider.net/path/val1/val2 etc). The WMTS in question is https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml.\n\nThe way other clients handle this is by parsing the  URL, which provides the parameter mapping for  requests. I see that OpenLayers has a method for parsing  to add the WMTS (https://openlayers.org/en/latest/examples/wmts-layer-from-capabilities.html).\n\nI&#39;m aware that at least one other question has this as the underlying issue (https://stackoverflow.com/questions/44300140/wmts-layer-syntax-for-leaflet), but it doesn&#39;t make it clear what the underlying problem is, so I thought it was worth asking a new question.\n\nI know that I can either read the  XML myself (or look at network requests from a working client) and determine the structure to add a plain XYZ tileserver. However, I am trying to code this into qgis2web, which needs to accomplish this programmatically.\n\nSo, is there any way of adding a WMTS to a Leaflet webmap if you only have the URL for its  method?\n",
+            "excerpt": "So, is there any way of adding a WMTS to a Leaflet <span class=\"highlight\">webmap</span> if you only have the URL for its GetCapabilities method? &hellip; ",
+            "title": "Add WMTS to Leaflet using its GetCapabilities URL"
+        },
+        {
+            "tags": [
+                "qgis",
+                "coordinate-system",
+                "google-earth",
+                "great-circle",
+                "geodesic"
+            ],
+            "question_score": 6,
+            "is_accepted": true,
+            "answer_id": 140997,
+            "is_answered": false,
+            "question_id": 140970,
+            "item_type": "answer",
+            "score": 5,
+            "last_activity_date": 1427825620,
+            "creation_date": 1427818260,
+            "body": "You have to reproject every line into an azimutal equidistant projection based on one of its points, then densify the line.\n\nSince all points of your grid are connected to three lines, you can densify those three with the same projection. The  tool allows to densify only selected elements.\n\nSee my example here on how to create great circles in aeqd:\n\ngreat circles in QGIS and export in 3857 webmap\n\nUsing a gnomonic projection would work too, but that projection shows heavy distortions, and some points can not be reprojected.\n",
+            "excerpt": "See my example here on how to create great circles in aeqd:\n\ngreat circles in QGIS and export in 3857 <span class=\"highlight\">webmap</span>\n\nUsing a gnomonic projection would work too, but that projection shows heavy distortions, and &hellip; ",
+            "title": "Modifying straight line segments to follow geodesic / great circle paths using QGIS?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "point",
+                "web-mapping",
+                "qgis2web",
+                "visibility"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 396547,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1621074492,
+            "creation_date": 1620911598,
+            "body": "What I have:\n\nQGIS 3.18 on Win 10 containing a project with:\n\nOpenStreetMap basemap\nPoint layer (Geopackage, 5.1 MB), representing centroids of buildings of a city\nPoint layer set to scale based visibility (only visible when zoomed in for more than 1:5000, corresponds to canvas extent of ca. 1km*1km and smaller) - so normally, just a few hundred (at max. ca. 1400) points are visible due to small canvas extent.\n\n\nPoint layer consists of:\n\n54.000 features, extent ca. 12*12 km\nAttributes contain two fields:  and an additional integer field\n\n\n\nWhat I want to do:\nI want to make the project available as WebMap with  plugin, ver. 3.16. This works fine for other projects.\nWhat the problem is:\nThe exported map loads extremely slow and the browser becomes unresponsive. The same is true for the plugin&#39;s preview. I  get the warning:\n\nA large number of features are present in the map. Generating the\npreview may take some time.\n\nI guess this is because it tries to load all 54.000 point features, even if only a small section of the whole extent is inside the current canvas extent. Scale based visibility apparently can&#39;t be converted by qgis2web plugin.\nWhat I tried:\nChanging the  setting in the plugin, but with no success. I also looked to the other settings of the plugin (check the  checkbox for the point layer), but they don&#39;t resolve the problem.\nI also tried splitting up the layer to several small layers, based on a grid. The problem persists. I guess that Leaflet/the Web site still tries to load all layers in the current canvas extent - so the site gets blocked before you even get the chance to zoom in.\nThe question:\nHow can this problem be solved so that I have a WebMap with OSM basemap + the point layer, loading in reasonable time (few seconds at max.)\nScreenshots:\n\n\n\n",
+            "excerpt": "Point layer consists of:\n\n54.000 features, extent ca. 12*12 km\nAttributes contain two fields: fid and an additional integer field\n\n\n\nWhat I want to do:\nI want to make the project available as <span class=\"highlight\">WebMap</span> with &hellip; The question:\nHow can this problem be solved so that I have a <span class=\"highlight\">WebMap</span> with OSM basemap + the point layer, loading in reasonable time (few seconds at max.)\nScreenshots: &hellip; ",
+            "title": "Exporting QGIS project containing many points with qgis2web: reduce loading time"
+        },
+        {
+            "tags": [
+                "arcgis-web-appbuilder",
+                "jimu"
+            ],
+            "question_score": 5,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 325480,
+            "item_type": "question",
+            "score": 5,
+            "last_activity_date": 1683848482,
+            "creation_date": 1560267541,
+            "body": "The Web AppBuilder is a pure dojo, and Node.js application to build webmap applications by analyst that are not developers. However there is also a developer version where you can extend or build your own custom widgets.\n\nIn the Esri example: https://developers.arcgis.com/web-appbuilder/guide/create-a-feature-action-in-your-widget.htm they provide a code snippet but I&#39;m a bit discombabulated. I can see  in the define module, but the ,\n  , what js library it is?  What is  and where can I find more information on it?\n\n\n",
+            "excerpt": "The Web AppBuilder is a pure dojo, and Node.js application to build <span class=\"highlight\">webmap</span> applications by analyst that are not developers. &hellip; ",
+            "title": "What is jimu.js in Web AppBuilder?"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "arcgis-portal"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "answer_id": 43116,
+            "is_answered": false,
+            "question_id": 42959,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1355305176,
+            "creation_date": 1354625290,
+            "body": "I think I&#39;ve found the solution to this issue. The code works fine* if security is disabled in chrome (Chrome.exe --disable-web-security), which means my code is ok. The error seems to say that the server will not accept the header X-Requested-With which is added by default by dojo xhrPost. Therefore I set the header value to null (as suggested by ESRI support) and the request went through fine in Chrome/FF\n\nI have submitted a request to ESRI to get the header added to the server as suggested by this exchange\n\nEdit: it works in IE9 using dojo.xhrPost so long as the site and ArcGIS online server are running on the same protocol, most likely https.\n\n*Looking at the way &quot;configure application&quot; works in fiddler on ArcGIS online site they do not use &#39;update item&#39; but instead &#39;add item&#39; with overwrite = true. In order to get the webmap template and its associated data use the code getTemplate code listed below.\n\n\n",
+            "excerpt": "In order to get the <span class=\"highlight\">webmap</span> template and its associated data use the code getTemplate code listed below.\n\n        addItem: function (item, itemData) {\n            var cont = item;\n            if (! &hellip; ",
+            "title": "How to add item to the ArcGIS Portal with the portal API?"
+        },
+        {
+            "tags": [
+                "arcpy",
+                "geometry"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 246649,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1499895758,
+            "creation_date": 1499349478,
+            "body": "I have an interesting problem. I am using arcpy with arcGIS desktop 10.2. \n\nI am given a starting point and distance to a fault on electrical lines. My task is to automate the process of plotting these points into a feature class and displaying them on a webmap for other non-GIS users to view. An example: I receive tabular info that has these two relevant pieces of information: \n\nStarting point: Breaker #113  (Which I know the location of, and touches an electric line segment)\nFault Location: 18.3 Miles\n\nIt is important to note that the line features that I must be working on have a commonly shared attribute, called &#39;lineGroup&#39;, but there are many touching line features or segments that may be in that lineGroup. After I select the first line feature that touches my starting point, I iterate recursively through each vertice and measure the distance between them. I keep a running total of the distance, and the code plots a point when it reaches the fault location. \n\nI can get my code to work fine when there is only a single line segment to iterate over, but my dataset contains many different line segments that I may have to iterate over to reach the fault distance. Also, there may be branches off of a line that head in a different direction. So I can potentially have multiple points plotted from one run of this script. \n\nHere is the code I currently have, which works well for a single line segment. What I need help with is how to continue onward with the function when I hit the end of the first line segment, as well as how to branch off and find a possible fault location down a branch. \n\n\n",
+            "excerpt": "My task is to automate the process of plotting these points into a feature class and displaying them on a <span class=\"highlight\">webmap</span> for other non-GIS users to view. &hellip; ",
+            "title": "How to iterate through vertices in line segments, and all possible branches in arcpy?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "leaflet",
+                "web-mapping",
+                "batch"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 131131,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1512933967,
+            "creation_date": 1421836616,
+            "body": "During a project on the spider fauna of Greece, we have to face the design of distribution maps of the species. \n\nA good tool to work with is the design of Leaflet webmaps to be used on the website instead of static maps.\n\nAs the number of species is not small (1120 species = 1120 maps) am looking to find a way to create under a batch mode, webmaps with the Leaflet plugin.\n\nAll data are stored in a csv or shapefile with one column contain species name and rest the source (literature code) and coordinates in WGS84\n\nAny idea on how can this work?\n",
+            "excerpt": "During a project on the spider fauna of Greece, we have to face the design of distribution maps of the species. \n\nA good tool to work with is the design of Leaflet webmaps to be used on the website in &hellip; ",
+            "title": "Batch create Leaflet webmaps in QGIS"
+        },
+        {
+            "tags": [
+                "arcgis-server",
+                "map-service",
+                "arcgis-pro"
+            ],
+            "question_score": 1,
+            "is_accepted": true,
+            "answer_id": 208879,
+            "is_answered": false,
+            "question_id": 202790,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1472564533,
+            "creation_date": 1472564533,
+            "body": "You can import your existing ArcMap MXDs into ArcGIS Pro. See this help link for more information on the process. With that done, you can save your project. Essentially you&#39;ve now migrated from MXDs to APRX (projects).\n\nYou cannot publish from ArcGIS Pro to ArcGIS Server. From ArcGIS Pro you can share webmaps or web layers to ArcGIS Portal (that means a local portal or arcgis.com). In the scenario you propose, if you&#39;re sharing a webmap to arcigs.com, then you&#39;re correct; the data becomes static as it&#39;s pushed up to that server. If you&#39;re making a webmap in your local portal you can setup and reference the data from your enterprise geodatabase, thus the webmap will continue to use data that you make updates too. Its almost the same as publishing a map service to ArcGIS Server, except you&#39;re publishing a webmap to Portal. All the same concepts, just slightly different technologies.\n",
+            "excerpt": "In the scenario you propose, if you&#39;re sharing a <span class=\"highlight\">webmap</span> to arcigs.com, then you&#39;re correct; the data becomes static as it&#39;s pushed up to that server. &hellip; If you&#39;re making a <span class=\"highlight\">webmap</span> in your local portal you can setup and reference the data from your enterprise geodatabase, thus the <span class=\"highlight\">webmap</span> will continue to use data that you make updates too. &hellip; ",
+            "title": "Serving content from MXDs to ArcGIS for Server by publishing from ArcGIS Pro?"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "popup"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "answer_id": 222798,
+            "is_answered": false,
+            "question_id": 162351,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1483034335,
+            "creation_date": 1483034335,
+            "body": "According to an ESRI source, there is still no way to resize a popup window in ArcGIS Online.\n\nhttps://geonet.esri.com/thread/138840\n\nHopefully (with the newest line of releases and ESRI&#39;s emphasis on &quot;webmaps can do everything that Desktop can do&quot;), we will see an update.\n",
+            "excerpt": "According to an ESRI source, there is still no way to resize a popup window in ArcGIS Online.\n\nhttps://geonet.esri.com/thread/138840\n\nHopefully (with the newest line of releases and ESRI&#39;s emphasis on &hellip; ",
+            "title": "Changing size of popup on ArcGIS Online?"
+        },
+        {
+            "tags": [
+                "imagery",
+                "pictometry"
+            ],
+            "question_score": 8,
+            "is_accepted": false,
+            "answer_id": 10170,
+            "is_answered": false,
+            "question_id": 10164,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1306255064,
+            "creation_date": 1306253418,
+            "body": "We use pictometry, and in terms of web mapping they provide no good solutions (that I have seen at least).  I ended up writing a very simple tool in javascript that finds the coordinates of a clicked point on the webmap.  Once you have the coordinates I pop a new browser window and go to the Bing Maps api with the coordinates in the query string.  Using the birds eye view methods it is easy to get your oblique imagery.\n\nAs you have found, working with Pictometry&#39;s pmi files will not help you with webmapping.  To me, by far the quickest way to a solution was using bing:\nhttp://msdn.microsoft.com/en-us/library/bb429561.aspx\n\nLet me know if you need some help with the actual code.  Its short and both employees and citizens like the feature.  The page is live, you can check out how it works if you like\n",
+            "excerpt": "I ended up writing a very simple tool in javascript that finds the coordinates of a clicked point on the <span class=\"highlight\">webmap</span>. &hellip; ",
+            "title": "Use of Pictometry images in GIS"
+        },
+        {
+            "tags": [
+                "software-recommendations",
+                "ms-access",
+                "arcgis-platform",
+                "hyperlink",
+                "integration"
+            ],
+            "question_score": 0,
+            "is_accepted": false,
+            "answer_id": 229181,
+            "is_answered": false,
+            "question_id": 228829,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1487766610,
+            "creation_date": 1487607014,
+            "body": "The thing to do these days would probably be to link to a map on ArcGIS Online. You could do this by providing a hyperlink to the Webmap viewer, https://www.arcgis.com/home/webmap/viewer.html?... It should be possible to pass parameters to set the center and scale of the map in the URL, see the documentation for more details.\n\nA variation could be to embed a Web Control on your Access form, and open the same ArcGIS Online page in that control.\n\nIf you prefer a more traditional approach, or if you do not want to share your data on AGOL, you could use the map control provided with ArcGIS Engine. This is very similar to the map used in ArcMap. \n\nAlternatively, use the SharpMap control to do the same thing. EDIT: I&#39;m not quite sure if this can work, because it&#39;s a .NET control.\n\nIf you want to add a map to a report, you will problably have to export the map as an image, and embed it.\n",
+            "excerpt": "You could do this by providing a hyperlink to the <span class=\"highlight\">Webmap</span> viewer, https://www.arcgis.com/home/<span class=\"highlight\">webmap</span>/viewer.html?... &hellip; ",
+            "title": "Embed Esri map in MS Access Report or Form"
+        },
+        {
+            "tags": [
+                "arcgis-server",
+                "map-service",
+                "geoprocessing-service",
+                "feature-service"
+            ],
+            "question_score": 1,
+            "is_accepted": false,
+            "answer_id": 122214,
+            "is_answered": false,
+            "question_id": 122190,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1416006658,
+            "creation_date": 1416006658,
+            "body": "As Vince pointed out in a comment - you could theoretically write code to clip a map/feature service. But that would probably be a lot of custom work. You wouldnt as much be extending the Clip and Ship tool as you&#39;d be writing a custom extraction of JSON from map services.\n\nGenerally the clip and ship work flow is comprised of 2 services: GP + Map. They both reference the same data. The map service (which you build a webmap off of) is so the user knows what data they&#39;re working with and in what area (visualized) and the GP service is there to provide the extraction.\n\nThe tutorial talked about is this one: http://resources.arcgis.com/en/help/main/10.2/#/Clip_and_ship/005700000073000000/\n",
+            "excerpt": "The map service (which you build a <span class=\"highlight\">webmap</span> off of) is so the user knows what data they&#39;re working with and in what area (visualized) and the GP service is there to provide the extraction. &hellip; ",
+            "title": "Is clip and ship possible with ArcGIS Server map service?"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "dojo"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 131029,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1423589733,
+            "creation_date": 1421779613,
+            "body": "I&#39;m writing a web app using ESRI&#39;s Javascript API and a map I created in ArcMap 10.1 hosted on ArcGIS online (Feature Service, not WebMap).\n\nI have written the code necessary to print attributes in a stationary DIV instead of creating a popup. The only problem is, I now have to click twice every time I want to select a new feature.\n\nSo, I select a feature, the DIV updates with the new attributes. I click on a different feature, nothing happens. I click on the same feature again and the attributes update in the DIV.\n\nWhat is going on here? I&#39;m using map.infoWindow.on() to listen for &quot;selection-change&quot;. My code is below and the website is live here.\n\n\n",
+            "excerpt": "I&#39;m writing a web app using ESRI&#39;s Javascript API and a map I created in ArcMap 10.1 hosted on ArcGIS online (Feature Service, not <span class=\"highlight\">WebMap</span>). &hellip; ",
+            "title": "Takes Two Clicks to Select New Feature"
+        },
+        {
+            "tags": [
+                "arcmap",
+                "arcgis-server",
+                "enterprise-geodatabase",
+                "rest",
+                "feature-service"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 251754,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1528016903,
+            "creation_date": 1502443012,
+            "body": "I&#39;m currently using ArcGIS Server 10.4 for my REST service and ArcGIS Online. I have created a domain list and assigned it to a field. All of it works fine. I&#39;m currently using Oracle for my geodatabase. When i added the the rest service to a webmap, i can see the domains as a select list.\n\nHowever, from time to time, additional values must be added to the domain or need to be updated. I tried updating it in ArcMap and it reflects nicely. In editing mode you can see it straightaway in the select list. This is not the same for the REST service. After adding in the value, it is still not available when i try to check it via webmap.\n\nI then proceed to restart the REST service and now it starts to show the new entries. Is this the standard way? in order for it to reflect the new entries, i would constantly need to restart the service?\n\nIs there a way to refresh the connection to the geodatabase maybe without the need of fully restarting a rest service. I can see that if you add/or edit data in ArcMap and save editing, it can straightaway reflect. But this is not the case for domain.\n\nIs there a way around restarting the service?\n",
+            "excerpt": "When i added the the rest service to a <span class=\"highlight\">webmap</span>, i can see the domains as a select list.\n\nHowever, from time to time, additional values must be added to the domain or need to be updated. &hellip; After adding in the value, it is still not available when i try to check it via <span class=\"highlight\">webmap</span>.\n\nI then proceed to restart the REST service and now it starts to show the new entries. &hellip; ",
+            "title": "How to push newly added or updated domain values to ArcGIS rest service?"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "arcgis-online",
+                "bookmarks"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 58582,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1541382191,
+            "creation_date": 1366392466,
+            "body": "Without using the clunky ArcGIS bookmark dijit, how do I create a drop down box of bookmarks from an ArcGIS Online webmap (or JSON) that zoom to the extents when clicked?\n\n\n",
+            "excerpt": "Without using the clunky ArcGIS bookmark dijit, how do I create a drop down box of bookmarks from an ArcGIS Online <span class=\"highlight\">webmap</span> (or JSON) that zoom to the extents when clicked? &hellip; ",
+            "title": "Creating drop down box / combo box of bookmarks from ArcGIS Online webmap?"
+        },
+        {
+            "tags": [
+                "arcgis-maps-sdk-javascript",
+                "arcgis-online",
+                "popup",
+                "feature-service"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 58782,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1477454016,
+            "creation_date": 1366643368,
+            "body": "I am using an  in an ESRI Javascript API application I am developing.  One of the layers in my  is rather large and cannot be rendered all at once when zoomed out, however I would like to avoid showing holes in the data on screen when data does actually exist there.\n\nI have seen samples and demos before where it is possible to use a tiled map service to cover the entire large area without rendering all the individual features, but still be able to show an  when the map is clicked.  I am assuming this would be done using a  with its  set to  and the  handler for the  would query the  based on where the  was clicked, then the selected features would appear on the  and the  could be visible.\n\nI have not seen where it is possible to set the  of a  that is provided via an .  If I simply create a new  in my application that points to the  on , then I lose all of the configuration (symbology, popup, etc.) that I have done when publishing the .\n\nIs what I have described above possible?  If not, is there another way to render a large number of features on the map and still have access to attribute information?\n",
+            "excerpt": "I am using an ArcGIS.com <span class=\"highlight\">Webmap</span> in an ESRI Javascript API application I am developing. &hellip; I have not seen where it is possible to set the mode of a FeatureLayer that is provided via an ArcGIS.com <span class=\"highlight\">Webmap</span>. &hellip; ",
+            "title": "Can I use SELECTION mode on FeatureLayer from ArcGIS.com Webmap in ESRI JS API"
+        },
+        {
+            "tags": [
+                "arcgis-desktop",
+                "arcgis-10.2",
+                "arcgis-portal",
+                "group-layer"
+            ],
+            "question_score": 2,
+            "is_accepted": false,
+            "answer_id": 296439,
+            "is_answered": false,
+            "question_id": 229874,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1537373074,
+            "creation_date": 1537373074,
+            "body": "I agree with Zara. Unfortunately, Portal doesn&#39;t support group layer as of 10.6. \nA workaround that  I have been using is to group the layers in .mxd and publish them as one service. Then I would add these service in the Portal&#39;s WebMap. \nOne caveat to this process is, any time you make non-trivial changes in one of the layer, you will have to republish the whole service and add the new REST URL in Webmap again. Then you might have to reconfigure all of your formattings in the service (like pop-ups).\n",
+            "excerpt": "Then I would add these service in the Portal&#39;s <span class=\"highlight\">WebMap</span>. &hellip; One caveat to this process is, any time you make non-trivial changes in one of the layer, you will have to republish the whole service and add the new REST URL in <span class=\"highlight\">Webmap</span> again. &hellip; ",
+            "title": "Grouping layers in Portal for ArcGIS?"
+        },
+        {
+            "tags": [
+                "geojson",
+                "fme-form"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 143777,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1515821962,
+            "creation_date": 1429811568,
+            "body": "I have a webmap of bike stations and there is a json service for these stations behind the map. \n\nIs it possible to provide this URL as the source dataset, using FME Desktop? \n\nDoes FME Desktop support real-time data applications?\n\nI need to be able to access the URL and write a workbench that would capture the bike station status in 5 minutes increments and put the results in a .csv ot .txt file.\n\nAny ideas? \n",
+            "excerpt": "I have a <span class=\"highlight\">webmap</span> of bike stations and there is a json service for these stations behind the map. \n\nIs it possible to provide this URL as the source dataset, using FME Desktop? &hellip; ",
+            "title": "Read (GEO)JSON file from web service using FME Desktop"
+        },
+        {
+            "tags": [
+                "qgis",
+                "leaflet",
+                "web-mapping",
+                "xyz-tiles"
+            ],
+            "question_score": 1,
+            "is_accepted": true,
+            "answer_id": 445566,
+            "is_answered": false,
+            "question_id": 445565,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1668977358,
+            "creation_date": 1668977358,
+            "body": "Short answer\nYou need an index file that refers to your tiles. This can be created automatically when creating an  in the dialog window.\nSee this example here, a quick and dirty topographic map I created for this purpose in QGIS: https://daniel-ursprung.ch/tiles/\nDetailed answer\n\nIn the  dialog window, apart from the  you also have the option . Define a path and filename here - advice: use . I would recommend to save it in the same directory as the tiles itself (the output directory). If you than open this html file in a webbrowser, the tiles map shows up correctly. If this works locally, you&#39;re ready to load it to a server.\n\nYou have to make a little change in the index.html file as this links to the local folder path where you saved the tiles. On the server, you must refer to the path (URL) where the tiles are saved. So in the output index.html, search for this line where  stands for the path where you saved the tiles locally:\n\nYou can use relative paths: in case you saved the index-file and the output to the same directory, change the above line to this one here:\n\nAdapt the path to your needs. You could also use absolute path (URL to the folder) like e.g. for the webmap I created:\n\n\nWhen you now load your output directory with the folder structure and content unchanged to a html server with FTP (e.g. using FileZilla), you can open the URL refering to the folder or the  file. The map then appears as you know it from other web maps.\n\n\n",
+            "excerpt": "You could also use absolute path (URL to the folder) like e.g. for the <span class=\"highlight\">webmap</span> I created:\nL.tileLayer(&#39;https://daniel-ursprung.ch/tiles/{z}/{x}/{y}.png&#39;, {\n\nWhen you now load your output directory with &hellip; ",
+            "title": "XYZ tiles generated with QGIS not visible when uploading on web server"
+        },
+        {
+            "tags": [
+                "arcgis-desktop",
+                "arcmap",
+                "tiles",
+                "mapbox",
+                "tile-layer"
+            ],
+            "question_score": 7,
+            "is_accepted": false,
+            "answer_id": 257111,
+            "is_answered": false,
+            "question_id": 174569,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1506775710,
+            "creation_date": 1506775710,
+            "body": "Update for September 2017:\n\nThis is pretty straighforward at this point (finally). You don&#39;t need to &quot;own&quot; the tiles to do this, only add the tile service to an ArcGIS online webmap (Add --&gt; Layer From Web) like so:\n\n\n\nAfter that, save the webmap (not the tiles themselves) to your &quot;Content&quot;. Then go to Content, and click on the map:\n\n\n\nThis will bring up the page for your particular webmap:\n\n\n\nFrom here, you can click . This will download a mysterious  file, which when clicked will open ArcMap with the tile service displayed.\n",
+            "excerpt": "You don&#39;t need to &quot;own&quot; the tiles to do this, only add the tile service to an ArcGIS online <span class=\"highlight\">webmap</span> (Add --&gt; Layer From Web) like so:\n\n\n\nAfter that, save the <span class=\"highlight\">webmap</span> (not the tiles themselves) to your &quot;Content &hellip; Then go to Content, and click on the map:\n\n\n\nThis will bring up the page for your particular <span class=\"highlight\">webmap</span>:\n\n\n\nFrom here, you can click Open in ArcGIS Desktop. &hellip; ",
+            "title": "Adding custom web tile layer to ArcMap?"
+        },
+        {
+            "tags": [
+                "qgis-3",
+                "legend",
+                "filter",
+                "qgis2web"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 383712,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1610030272,
+            "creation_date": 1610027031,
+            "body": "I have a layer with some points and I want to publish it using qgis2web. I have seen some exampes where the legend can be filtered such as in this webmap: https://ukerc.rl.ac.uk/TOOLS/EnergyDemonstrators/map.html#5/55.674/-2.490\n\nWhat setting was used to make this filtered legend? The closest I can make is this where I can only filter the layers themselves.:\n\n",
+            "excerpt": "I have seen some exampes where the legend can be filtered such as in this <span class=\"highlight\">webmap</span>: https://ukerc.rl.ac.uk/TOOLS/EnergyDemonstrators/map.html#5/55.674/-2.490\n\nWhat setting was used to make this filtered &hellip; ",
+            "title": "How was this map made by qgis2web"
+        },
+        {
+            "tags": [
+                "geojson",
+                "web-mapping"
+            ],
+            "question_score": -2,
+            "is_accepted": false,
+            "answer_id": 351986,
+            "is_answered": false,
+            "question_id": 351982,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1582659222,
+            "creation_date": 1582659222,
+            "body": "Webmap layers cannot be exported out unless the provider gives the user some sort of export data tool within the map or if they provide a WFS url.  I would recommend contacting the map provider to see if they can provide the raw data via another means.\n",
+            "excerpt": "<span class=\"highlight\">Webmap</span> layers cannot be exported out unless the provider gives the user some sort of export data tool within the map or if they provide a WFS url. &hellip; ",
+            "title": "Scraping the vectorlayer/shp/SVG/GeoJSON from this webmap?"
+        },
+        {
+            "tags": [
+                "javascript",
+                "arcgis-maps-sdk-javascript"
+            ],
+            "question_score": 1,
+            "is_accepted": true,
+            "answer_id": 306093,
+            "is_answered": false,
+            "question_id": 306034,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1544808114,
+            "creation_date": 1544806523,
+            "body": "Your modules are mapped incorrectly. You have  going to  and  going to . Reverse them in this line so that they match the order of your module paths.\n\n\n\nshould be\n\n\n\n*Edit: Actually, looking at your code more you don&#39;t even need the  module, as you are not instantiating a new one. You also had a minor syntax error, missing one final  to close out your  function. Here is a working fiddle of your code.\n\nAs for why only one layer is showing up in your legend, it&#39;s because you explicitly tell it to when you use the  option. Removing that shows all visible layers in your legend.\n",
+            "excerpt": "function(\n    MapView, Legend, <span class=\"highlight\">WebMap</span>, Locate, Search, ScaleBar, FeatureLayer, LayerList\n  ) {\n\nshould be\n\nfunction(\n    MapView, Legend, <span class=\"highlight\">WebMap</span>, Locate, Search, ScaleBar, LayerList, FeatureLayer\n  ) { &hellip; ",
+            "title": "Toggle ArcGIS Online WebMap Layers using Javascript?"
+        },
+        {
+            "tags": [
+                "postgis",
+                "geoserver",
+                "software-recommendations",
+                "hosting",
+                "geomoose"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 162012,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1458811323,
+            "creation_date": 1441572635,
+            "body": "I&#39;m currently running the following GIS stack with a private hosting firm.\n\nGeoServer v2.5.2\nPostgreSQL v9.3.5 / PostGIS v2.1\nGeoMoose v2.6\n\nI would like to find a less expensive option for hosting.  I&#39;m researching options like Amazon EC2, linode, and a2hosting.\nI would like to learn how to do this for myself and  need some input from anyone who has experience with this.  Ideally I&#39;d like to just migrate my current stack, db, and webmaps to another host.\n\nI should add that I am an experienced desktop GIS guy and have understand the functionality of GeoServer and how GeoMoose uses mapbooks.  I just have questions about the server side of things and installing software.  My current host said he would be able to provide me with a server footprint If I wanted to host elsewhere.\n\nThe maps I&#39;m building are state wide maps and contain between 25-35 layers.  So far I have 9 maps and will probably increase that to 15 in the next year.\n",
+            "excerpt": "I&#39;m currently running the following GIS stack with a private hosting firm.\n\nGeoServer v2.5.2\nPostgreSQL v9.3.5 / PostGIS v2.1\nGeoMoose v2.6\n\nI would like to find a less expensive option for hosting.   &hellip; ",
+            "title": "Migrating GIS Stack"
+        },
+        {
+            "tags": [
+                "shapefile",
+                "data",
+                "network",
+                "download",
+                "maritime-map"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 180951,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1641034092,
+            "creation_date": 1455630702,
+            "body": "Does anyone know if global shipping routes for free download (preferably ESRI shapefile) exist? I would need them for my research only as a background presentation on the world image. They can be rough presentation, I would need something like this: http://www.arcgis.com/home/webmap/viewer.html?layers=12c0789207e64714b9545ad30fca1633&amp;useExisting=1 \n\nI have already tried the link of Global Shipping Lane Network from Oak Ridge National Labs (mentioned in this post What are the existing datasets of world maritime routes?), but the link does not function anymore.\n",
+            "excerpt": "They can be rough presentation, I would need something like this: http://www.arcgis.com/home/<span class=\"highlight\">webmap</span>/viewer.html? &hellip; ",
+            "title": "Global shipping network datasets for download?"
+        },
+        {
+            "tags": [
+                "geoserver",
+                "wfs",
+                "openlayers-2"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 79005,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1570507586,
+            "creation_date": 1385754632,
+            "body": "My girlfriend is trying to create a webmap using OpenLayers that is similar to this one, which was done in ArcGIS Server. I thought I&#39;d be able to help her as I have GIS and some coding experience but this is over my head.\n\nShe&#39;s wanting to use a WFS-capable template and already has a very basic page set up. She&#39;d like users to be able to edit the data. \n\nDo you have any advice, know of any tutorials, or of any published maps that are similar to the Gender Map that we could take a look at? \n\nNeither of us have any real experience with webmaps. \n\nHer current code is as follows:\n\n\n\n\n",
+            "excerpt": "My girlfriend is trying to create a <span class=\"highlight\">webmap</span> using OpenLayers that is similar to this one, which was done in ArcGIS Server. &hellip; ",
+            "title": "Creating editable Map with OpenLayers"
+        },
+        {
+            "tags": [
+                "postgis",
+                "leaflet",
+                "leaflet-draw",
+                "save"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 248313,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1602833967,
+            "creation_date": 1500552429,
+            "body": "I am very new to creating webmaps with Leaflet and I am trying to save my shapes I draw into my postgis db. I would prefer to be saved as .shp or any default format (i.e. json) with its geometry field. I seek a step-by-step code like a small demo.\n\nthe script till now:\n\n\n",
+            "excerpt": "I am very new to creating webmaps with Leaflet and I am trying to save my shapes I draw into my postgis db. I would prefer to be saved as .shp or any default format (i.e. json) with its geometry field &hellip; ",
+            "title": "how to save drawable entities with leaflet.draw/draw polygons into my Postgis database with getting also the coordinates"
+        },
+        {
+            "tags": [
+                "leaflet",
+                "geojson",
+                "popup",
+                "json"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 165008,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1477379170,
+            "creation_date": 1443727644,
+            "body": "\nSo I have a JSON file displayed on my leaflet webmap. I would like to have it so a popup will appear when a feature is clicked. Right now it is a polygon feature. How do I call up information from the JSON file (Syriashape.json) so it can be displayed? The fields I would like to display are called &quot;Sheet_Num&quot; and &quot;Date&quot;\n\nCurrently, this is what I have:\n\n\n",
+            "excerpt": "So I have a JSON file displayed on my leaflet <span class=\"highlight\">webmap</span>. I would like to have it so a popup will appear when a feature is clicked. Right now it is a polygon feature. &hellip; ",
+            "title": "How do I show feature attributes in a Leaflet popup?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "qgis2web"
+            ],
+            "question_score": 1,
+            "is_accepted": true,
+            "answer_id": 349050,
+            "is_answered": false,
+            "question_id": 348983,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1580380704,
+            "creation_date": 1580380704,
+            "body": "This happens because qgis2web interprets QGIS &quot;Attachment&quot; fields as images. If you make the fields text, rather than attachments, it will try to recognize hyperlinks and make them clickable.\n\nOne thing I&#39;ve run into, though, is that links to  addresses often fail in browsers these days, so even if the above works - in other words, it produces the link correctly - the links still might not work in a browser. Depending on which browser you need this to work in, there might be registry hacks to allow file:// links, but that may or may not be a solution for you (ie do you have access to the registry on every machine which will view the webmap?).\n",
+            "excerpt": "you need this to work in, there might be registry hacks to allow file:// links, but that may or may not be a solution for you (ie do you have access to the registry on every machine which will view the <span class=\"highlight\">webmap</span> &hellip; ",
+            "title": "Linking pdf which is stored on local server to web map made with qgis2web"
+        },
+        {
+            "tags": [
+                "leaflet",
+                "geojson",
+                "html"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 179912,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1476100944,
+            "creation_date": 1454965092,
+            "body": "I don&#39;t have much knowledge of HTML/JS/GeoJSON, and have made a webmap from trial and error with many different tutorials. I have tried leaflet&#39;s tutorials but cannot get the desired results.\n\nI have a functioning Leaflet webmap that shows GeoJSON points. I need to symbolize the points based on GeoJSON properties, and provide a pop-up when the point is clicked. I can use &quot;pointToLayer&quot; to turn the default blue markers into a custom point, \n\n\n\nbut when I try to incorporate a pop-up, the blue points turn back into default markers \n\n\n\nHow can I get a custom-symbolized point with a pop-up? What am I doing wrong?\n\nHere is the HTML code I am using:\n\n\n",
+            "excerpt": "I don&#39;t have much knowledge of HTML/JS/GeoJSON, and have made a <span class=\"highlight\">webmap</span> from trial and error with many different tutorials. I have tried leaflet&#39;s tutorials but cannot get the desired results. &hellip; I have a functioning Leaflet <span class=\"highlight\">webmap</span> that shows GeoJSON points. I need to symbolize the points based on GeoJSON properties, and provide a pop-up when the point is clicked. &hellip; ",
+            "title": "Leaflet/HTML/GeoJSON: How to put a pop-up on a geoJSON point?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "qgis2leaf",
+                "qgis2web"
+            ],
+            "question_score": 2,
+            "is_accepted": false,
+            "answer_id": 194436,
+            "is_answered": false,
+            "question_id": 154608,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1464186492,
+            "creation_date": 1463870132,
+            "body": "\nyes it is possible, like what @TomChadwin said with\n\n\nwith a huge help from excel (using CSV file), i will explain in step:\n\n1.Load your data with the image hyperlink Column inside\n \n\n2.Make a new column where your url picture inside img tag with this formula    okok\n\n\n\n\n\nThen Copy those cells and Paste with Paste Special Values.\n\n\nIf you missing something, here is example for much clearer explanation, download it and open in spreadsheet like excel to see how it works. It supposed now you have Picture hyperlink that will pop up with Qgis2web.\n\nhere is the webmap : Endemic Animal of Indonesia Map\n\nand here is the screen capture\n\n\nand \n",
+            "excerpt": "here is the <span class=\"highlight\">webmap</span> : Endemic Animal of Indonesia Map\n\nand here is the screen capture\n\n\nand &hellip; ",
+            "title": "PopUp with Images with QGIS2web"
+        },
+        {
+            "tags": [
+                "arcgis-online",
+                "mapbox",
+                "arcgis-online-basemaps"
+            ],
+            "question_score": 1,
+            "is_accepted": true,
+            "answer_id": 174279,
+            "is_answered": false,
+            "question_id": 160778,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1450363711,
+            "creation_date": 1450363711,
+            "body": "This link demonstrates how MapBox can be added as a basemap in a webmap. As cbunn mentioned, save the webmap with just the basemap. Share the webmap with a group that will be used for basemaps. Then change the organisational basemaps to use that group as below (any groups that you have in your organisation will appear):\n\n\n\nWhen you select a group that is not default, an option appears to add the Esri basemaps to the group. Note that all basemaps in the group must have the same spatial reference. And don&#39;t ask me about licencing!\n",
+            "excerpt": "This link demonstrates how MapBox can be added as a basemap in a <span class=\"highlight\">webmap</span>. As cbunn mentioned, save the <span class=\"highlight\">webmap</span> with just the basemap. Share the <span class=\"highlight\">webmap</span> with a group that will be used for basemaps. &hellip; ",
+            "title": "Use MapBox Satellite basemap in ArcGIS Online web map"
+        },
+        {
+            "tags": [
+                "qgis",
+                "raster",
+                "tiles",
+                "resampling"
+            ],
+            "question_score": 7,
+            "is_accepted": true,
+            "answer_id": 295631,
+            "is_answered": false,
+            "question_id": 295565,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1536733359,
+            "creation_date": 1536729462,
+            "body": "The quirky behaviours described by the questioner can be explained from the QGIS source codes. Here they are in simplified pseudocodes, with details omitted for clarity.\n\n\n\nWe will refer to the above in subsequent descriptions.\n\n(Nominal) Scale and Magnifier\n\nThe relationship between the Scale value and Magnifier value is\n\n\n\nIn the question, when Scale=1:125K and Magnifier=200%, the actual or effective scale used by QGIS was 1:62.5K. (Hence, the User was not looking at 1:125K.)\n\nQGIS&#39;s map view, at 1:125K loads Level 13 of the webmap service. But at 1:62.5K, QGIS loads Level 14. \n\nOversampling and Raster Layer\n\nAs explained in another answer, Oversampling is a limiter (pseudocode Line 2). It limits toUseRatio, which is a coefficient for amount of pixels to be read from the raster layer (i.e., resWdith and resHeight in pseudocode Line 4 and 5.) \n\nIf User specifies 0.0, then resWdith and resHeight will be zeroes, and nothing will be read from the raster layer. This explains the blank visual output described by the questioner.\n\nA raster layer backed by a file usually has only one &quot;layer&quot;, with a fixed native pixel resolution. (Note: Overlays omitted to simplify explanation.) QGIS loads the same layer for every map view, and scales up or down to produce the desired visual output. (Pseudocode Line 6 and 7.)\n\nNow, for a raster layer backed by a multi-layer webmap service, something interesting happened in Line 6. Based on the inputs (i.e., current map view extent, resWidth and resHeight), QGIS computes and loads the layer that supposedly gives the best pixel resolution. And this &quot;best&quot; layer is not necessarily the same layer computed by the effective (nominal) Scale.\n\nHence, at Scale=1:62,500 and Oversampling=2.0 (remember that OverSampling is not the actual coefficient but a limiter), QGIS loads Level 14. At Scale=1:62,500 and Oversampling=3.0, QGIS loads Level 15 (which happens to be the last layer, i.e. the layer with supposedly highest pixel resolution).\n\nAdditional Info\n\nThe ArcGIS Online USA Topo Maps webmap service actually has 16 layers and not three. Each layer has its own native pixel resolutions (i.e., &quot;scales&quot;). Hence, all GIS apps will look at it as having 16 layers - not three. The layer compositions are as below:\n\n\n\n(I suspected that Layer 12 to 15 may contain Topo! 1:100K content for areas not covered by Topo! 1:24K. Clarification on this is welcomed.) \n\nThe nominal scale of the map (i.e., 1:100K, 1:24K, and etc is true only on printed paper) and it is not to be confused with the pixel resolution of a digital map layer.\n\nIn the questioner&#39;s description, he observed that when Scale=1:125K and Magnifier=200% and Oversampling=2.0, QGIS shows GTopo 1:100K and not GTopo 1:24K. This may be due to (1) some tiles not successfully loaded during testing,\nor (2) User was looking at an extent where Topo! 1:24K does not cover and it was filled by content from Topo! 1:100K, or (3) QGIS on Mac uses a slightly different set of screen metric constants. (My apology as I had not gotten that far in the QGIS source codes.)\n",
+            "excerpt": "QGIS&#39;s map view, at 1:125K loads Level 13 of the <span class=\"highlight\">webmap</span> service. But at 1:62.5K, QGIS loads Level 14. &hellip; Now, for a raster layer backed by a multi-layer <span class=\"highlight\">webmap</span> service, something interesting happened in Line 6. &hellip; ",
+            "title": "How does oversampling work in WMTS layers?"
+        },
+        {
+            "tags": [
+                "coordinate-system",
+                "openlayers",
+                "wgs84"
+            ],
+            "question_score": 13,
+            "is_accepted": false,
+            "answer_id": 387522,
+            "is_answered": false,
+            "question_id": 387517,
+            "item_type": "answer",
+            "score": 4,
+            "last_activity_date": 1613517678,
+            "creation_date": 1613517678,
+            "body": "This openlayers example is a bit confusing.\nMost webmaps display in &quot;Web Mercator&quot; ie. &#39;Google Maps-style&#39; projections - EPSG / SRID: 3857\nOpenStreetMap data is collected, stored, and distributed in &#39;unprojected lat/lon&#39; aka WGS84 - EPSG / SRID: 4326.\nHowever, local data for administrative organizations are projected to State Plane zones or UTM zones (traditionally by &quot;GIS&quot; practices, though we store our data in WGS84 and project using PostGIS st_transform() when we need units in feet).\nOpenlayers has the ability to project your webmap to any coordinate system, and I believe this example is showing how to do that given any of the data storage coordinate system issues noted above.\n",
+            "excerpt": "Openlayers has the ability to project your <span class=\"highlight\">webmap</span> to any coordinate system, and I believe this example is showing how to do that given any of the data storage coordinate system issues noted above. &hellip; ",
+            "title": "What is meant with EPSG:4326 projection"
+        },
+        {
+            "tags": [
+                "qgis",
+                "geoserver",
+                "wms"
+            ],
+            "question_score": 4,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 3,
+            "is_answered": true,
+            "question_id": 231366,
+            "item_type": "question",
+            "score": 4,
+            "last_activity_date": 1636469663,
+            "creation_date": 1489030276,
+            "body": "I&#39;m trying to add a WMS to QGIS from GeoServer from localhost but after I paste in the URL and go to connect I get the following error:\n\n\n\nI&#39;m pretty sure I typed in the right parameters but I&#39;m a total webmap nube so I could be off:\n\n\n\n\n",
+            "excerpt": "SERVICE=WMS&amp;REQUEST=GetCapabilities - server replied: Not Found\n\n\nI&#39;m pretty sure I typed in the right parameters but I&#39;m a total <span class=\"highlight\">webmap</span> nube so I could be off: &hellip; ",
+            "title": "Failure to connect QGIS with GeoServer WMS?"
+        },
+        {
+            "tags": [
+                "arcgis-desktop"
+            ],
+            "question_score": 42,
+            "is_accepted": false,
+            "answer_id": 6762,
+            "is_answered": false,
+            "question_id": 6671,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1299174364,
+            "creation_date": 1299174364,
+            "body": "In response to the &quot;ESRI is slow ...so I am surprised to see you find it quick to develop on&quot; idea:  it&#39;s important to separate web-map/services development from &quot;desktop&quot; development from &quot;real&quot; development.\n\nwebmaps - It&#39;s been a few years since I seriously looked at serving webmaps with an ESRI (ArcIMS) or Open Source (Mapserver) platform, so things might be different now. At that time mapserver was faster/better both in performance and dev time. Reading various conversations here and there on the web indicate things are much improved with ArcGIS Server. The open source side has seen even more activity; from a distance the relative balance looks much the same. In any case web facing maps and services have never been ESRI&#39;s strong suite, as much as one can do with arcgis server now, it pales in comparison to the desktop tools. They&#39;re pumping boatloads of energy into arcgis server though so this may change eventually.\n\nDesktop development - this is modeller and the command line interface, followed by cleaning up and extending the saved scripts from that (but many never find the need to go that far). With modeller the initial design &amp; protoyping phase is a snap as one drags and drops compponents and defines relationships and dependencies between the processes. The model is not just conceptual, not just a picture. It&#39;s a tool that can be saved and re-used on real data at will. \n\nTurn on the CLI and run the canned toolboxes at will. As the tools run the actual commands executed and their parameters are reported. These reports can be copied to a text editor or spreadsheet, tweaked as desired, and pasted back into the CLI for execution. The CLI is also interactive, showing possible commands to choose from as one types, with tooltips for possible parameters, and accepts drag-n-drop from the various arcmap/catalog panels.\n\nDesktop development in ArcGIS is fast, largely intuitive, and well integrated. (I do have a looong list of desired improvements and gripes mind you!)\n\nReal development - this is firing up Visual Studio or [insert-favourite-IDE] and building something direct from ArcObjects in C#, C++, Java, Python, etc. I can&#39;t speak to how developing in this environment compares to other GIS platforms as I&#39;ve not done it. My hunch is that it has the perception of being more difficult because the number of possible objects to choose from is damnably large. I&#39;ve been told the ESRI COM library is the largest in the world, bigger than anything even Microsoft has built. That&#39;s going to take some time to get the gist of.\n",
+            "excerpt": "In response to the &quot;ESRI is slow ...so I am surprised to see you find it quick to develop on&quot; idea:  it&#39;s important to separate web-map/services development from &quot;desktop&quot; development from &quot;real&quot; deve &hellip; ",
+            "title": "Why do you use ArcGIS for Desktop?"
+        },
+        {
+            "tags": [
+                "web-mapping",
+                "mapserver",
+                "pgrouting"
+            ],
+            "question_score": 4,
+            "is_accepted": true,
+            "answer_id": 11069,
+            "is_answered": false,
+            "question_id": 11062,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1330462233,
+            "creation_date": 1308144492,
+            "body": "First you&#39;ll need to get pgRouting running. For a tutorial check: A Beginner\u2019s Guide to pgRouting.\n\nThe simplest approach is to do node-to-node routing using shortest_path().\n\nYou&#39;ll need to enable the user to pick start and end node for their routings. For example code check: Picking a Feature\u2019s Attribute Value From a WMS Layer With OpenLayers\n\nIn Mapscript, you can then tie a &quot;Get Routing&quot; button to a function that loads a new layer based on the shortest_path() query.\n\n\n\nUpdate:\n\nThis is a great tutorial for creating a webmap with routing functionality: http://workshop.pgrouting.org/chapters/geoext_client.html\nIt is based on OpenLayers with GeoExt and pgRouting, but it&#39;s easy to adjust it to any other routing webservice.\n",
+            "excerpt": "Update:\n\nThis is a great tutorial for creating a <span class=\"highlight\">webmap</span> with routing functionality: http://workshop.pgrouting.org/chapters/geoext_client.html\nIt is based on OpenLayers with GeoExt and pgRouting, but it&#39;s &hellip; ",
+            "title": "Webmapping with pgRouting and Mapserver for Beginners"
+        },
+        {
+            "tags": [
+                "web-mapping",
+                "heat-map"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 2,
+            "is_answered": true,
+            "question_id": 53480,
+            "item_type": "question",
+            "score": 3,
+            "last_activity_date": 1512551111,
+            "creation_date": 1362465472,
+            "body": "I am trying to develop hotspot map showing point density in our GIS based web application. \n\nAfter searching for an option I have decided to use v.kernel command. I have a table containing some point data i.e. crime data. I need to display the hotspot of crime for a particular area. \n\nIn v.kernel vector file containing points and polygon are used for displaying hotspots/heatmaps. In QGIS there is an option for selecting some rows and exporting it to shapefile. Is there any option for running this command from a Python file or is there any better option for displaying hotspot/heatmaps? \n\nI have tried OpenLayers heatmap, Python&#39;s heatmap and django-heat app but nothing seems to work for me. I am using OpenLayers TMS (Openlayers-2.12) for displaying maps generated through Mapnik and TileCache.\n",
+            "excerpt": "I am trying to develop hotspot map showing point density in our GIS based web application. \n\nAfter searching for an option I have decided to use v.kernel command. I have a table containing some point  &hellip; ",
+            "title": "How to create a webmap showing point density?"
+        },
+        {
+            "tags": [
+                "data",
+                "united-states",
+                "education"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "answer_id": 196010,
+            "is_answered": false,
+            "question_id": 196006,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1464965437,
+            "creation_date": 1464965437,
+            "body": "I recommend reaching out to local Government agencies to request data. You may be able to find someone willing to supply data for teaching purposes.\n\nAs a GIS Specialist for a County Government, I know that we typically sell data to local contractors and consultants (for a low cost) but will share data with teaching institutions for free. We always require a signed license agreement protecting us from misuse of our data but will not typically charge for non-commercial use.\n\nI found some links that may be helpful to you.\nOakland County Michigan Enterprise GIS\nThere is a contact listed at this site.\n\nWebmaps:\nWebmaps Link\n\nOften statewide data repositories will have information that will be useful as well.\nStatewide GIS Data repository for Michigan\n",
+            "excerpt": "I recommend reaching out to local Government agencies to request data. You may be able to find someone willing to supply data for teaching purposes.\n\nAs a GIS Specialist for a County Government, I kno &hellip; ",
+            "title": "Looking for local data sets for 6th graders?"
+        },
+        {
+            "tags": [
+                "arcgis-10.0",
+                "arcgis-maps-sdk-javascript",
+                "point",
+                "buffer",
+                "dojo"
+            ],
+            "question_score": 1,
+            "is_accepted": false,
+            "answer_id": 35003,
+            "is_answered": false,
+            "question_id": 34864,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1349390968,
+            "creation_date": 1349390968,
+            "body": "Here&#39;s a working example that geocodes and address/place and then buffers the first result:\n\n\n\nNote that no proxy is used. If you&#39;re buffering a single point, a proxy isn&#39;t necessary as the URL that&#39;s generated isn&#39;t likely to be &gt; 2k characters. If you&#39;re buffering many points, or large line or polygon geometries then you&#39;d need a proxy.\n\nAnother point to stress is that you should ask for results from the locator in the spatial reference of your map. This is done with the following line of code:\n\n\n",
+            "excerpt": "dojo.require(&quot;esri.map&quot;);\n      dojo.require(&quot;esri.tasks.locator&quot;);\n\n      var map, locator;\n      function init() {\n        // why write a lot of javascript code when you can use arcgis.com to author your <span class=\"highlight\">webmap</span> &hellip; ",
+            "title": "create buffer around locator-derived point"
+        },
+        {
+            "tags": [
+                "qgis2web"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "has_accepted_answer": true,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 271343,
+            "item_type": "question",
+            "score": 3,
+            "last_activity_date": 1518901508,
+            "creation_date": 1518551323,
+            "body": "I am trying to make a basic web map for my employer showing all past projects completed in the state. The map (via qgis2web plugin version 2.33.1, leaflet option) itself is created fine, but the data within the attribute table is not carrying over to the webmap, giving all of my attributes the value of &quot;undefined&quot;. Dataset is not huge; I tried hiding all but one to see if that would work, but no luck.\n\nThe reason I am using leaflet is because my map would not show up at all in OpenLayers, so if anyone has advice there too I&#39;m all ears!\n\nAny ideas how I can fix this?\n",
+            "excerpt": "The map (via qgis2web plugin version 2.33.1, leaflet option) itself is created fine, but the data within the attribute table is not carrying over to the <span class=\"highlight\">webmap</span>, giving all of my attributes the value of &hellip; ",
+            "title": "&quot;undefined&quot; attributes in webmap"
+        },
+        {
+            "tags": [
+                "arcgis-server",
+                "enterprise-geodatabase",
+                "tilemill"
+            ],
+            "question_score": 3,
+            "is_accepted": false,
+            "has_accepted_answer": false,
+            "answer_count": 1,
+            "is_answered": true,
+            "question_id": 44331,
+            "item_type": "question",
+            "score": 3,
+            "last_activity_date": 1434313467,
+            "creation_date": 1355927076,
+            "body": "Our web design department wants to use mapbox/tilemill to create webmaps for our public websites, but all our data is made available through ArcGIS-server or ArcSDE. Is there some way to use these directly in tilemill, maybe through OGR, or serverside script thats converts ArcGIS-services into geojson? \nI would prefer not set up a parallel storage in shapefile if I don&#39;t have to.\n\nExtra caveat: our designers are hardcore Mac-users.\n",
+            "excerpt": "Our web design department wants to use mapbox/tilemill to create webmaps for our public websites, but all our data is made available through ArcGIS-server or ArcSDE. Is there some way to use these dir &hellip; ",
+            "title": "Adding ArcGIS Server services or ArcSDE datasets to Tilemill?"
+        },
+        {
+            "tags": [
+                "arcgis-desktop"
+            ],
+            "question_score": 42,
+            "is_accepted": false,
+            "answer_id": 90944,
+            "is_answered": false,
+            "question_id": 6671,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1395829655,
+            "creation_date": 1395829655,
+            "body": "Since Esri make applications for desktop, mobile, server and the new-ish ArcGIS.com, it&#39;s relatively easy to migrate the same application across all environments.\n\nFor example, you can create a map document in ArcGIS Desktop and push it to the cloud-hosted ArcGIS.com with a few clicks (and pay later for online storage and access). You can use that same hosted version in your mobile or desktop applications, webmaps, etc.\n\nOther organisations produce similar &quot;seamless&quot; packages, such as Boundless Geo&#39;s excellent OpenGeo Suite or MapBox&#39;s suite, and perhaps they&#39;ll soon remove the advantages of ArcGIS. But for me, for the meanwhile, ArcGIS provides enough benefits to justify the cost.\n",
+            "excerpt": "Since Esri make applications for desktop, mobile, server and the new-ish ArcGIS.com, it&#39;s relatively easy to migrate the same application across all environments.\n\nFor example, you can create a map do &hellip; ",
+            "title": "Why do you use ArcGIS for Desktop?"
+        },
+        {
+            "tags": [
+                "qgis",
+                "mac",
+                "ios",
+                "geotiff-tiff",
+                "mbtiles"
+            ],
+            "question_score": 2,
+            "is_accepted": true,
+            "answer_id": 101466,
+            "is_answered": false,
+            "question_id": 101401,
+            "item_type": "answer",
+            "score": 3,
+            "last_activity_date": 1402558594,
+            "creation_date": 1402365985,
+            "body": "I agree with mapbarker and say TileMill would be the best route. However the problem you have is that the original raster files are in British National grid (epsg:27700) and need to be warped to the google sperical mercator projection (epsg:3857)\n\nThe MapBox team have a good tutorial on this - https://www.mapbox.com/tilemill/docs/guides/reprojecting-geotiff/\n\nSo all you will have to do is warp your virtual raster, load into TileMill then export out.\n\nThe alternative is to use the gdal2tiles.py and then mbutil to load the directory of tiles into the mbtile. This is a painful and very time consuming route.\n\n--EDIT--\n\nOk to explain further.\n\nYou said you had already created your VRT for the rasters using QGIS. So you need to warp the VRT from its current projection to the one required to created MBTiles - as explained in the link above.\n\nDo you have GDAL installed? If not you could install it and then using the link above use the gdal_warp command to convert to the EPSG 3875.\n\nIf you dont want to install GDAL then you can use QGIS&gt;Raster(from the top toolbar)&gt;Projections&gt;Warp\n\nThen select your VRT file, then specificy an output to save to\n\nThen select EPSG:27700 as the source SRS and then EPSG:3875 as the target SRS, \n\nThen I would loolk at this previous question - Converting Ordnance Survey raster maps to WGS84 webmap tiles and determine which resampling method you want.\n\nThen let QGIS do it works\n\nOnce the warp has finished you will have a new raster file\n\nLoad this into TileMill and then export out as an MBTile\n",
+            "excerpt": "specificy an output to save to\n\nThen select EPSG:27700 as the source SRS and then EPSG:3875 as the target SRS, \n\nThen I would loolk at this previous question - Converting Ordnance Survey raster maps to WGS84 <span class=\"highlight\">webmap</span> &hellip; ",
+            "title": "Performing TIFF to MBTILES conversion on Mac?"
+        }
+    ],
+    "has_more": true,
+    "quota_max": 300,
+    "quota_remaining": 295
+}
