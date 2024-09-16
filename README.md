@@ -3,7 +3,7 @@
 [![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)](https://docs.github.com/en/actions)
 
 
-This project is part of LLM Zoomcamp by [DataTalksClub]  (https://github.com/DataTalksClub/llm-zoomcamp) in the 2024 cohort.
+This project is part of LLM Zoomcamp by [DataTalksClub](https://github.com/DataTalksClub/llm-zoomcamp) in the 2024 cohort.
 
 ## Problem description
 The project involves developing a Retrieval-Augmented Generation (RAG) system with a Large Language Model (LLM) for a FAQ system intended for ACME, a company specializing in Surveying, Mapping, Remote Sensing, and GIS. The aim is to enhance customer service, achieve better client engagement, improve client retention, and reduce response times for inquiries and quotations. A comprehensive Knowledge Base has been constructed through data mining and web scraping to support this.
