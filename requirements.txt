@@ -1,0 +1,13 @@
+streamlit
+sentence-transformers
+pinecone-client
+pinecone
+pandas
+numpy
+requests
+python-dotenv
+boto3
+openai
+protoc_gen_openapiv2
+google-api-python-client
+"pinecone-client[grpc]"
