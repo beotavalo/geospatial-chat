@@ -22,4 +22,4 @@ rad.json
 TestResults.xml
 
 #API Keys
-/workspaces/geospatial-chat/.env
+.env
