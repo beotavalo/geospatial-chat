@@ -5,8 +5,6 @@ import numpy as np
 from typing import List
 import src.utils as ut
 import src.llm_api as llm
-import pinecone
-import requests
 from sentence_transformers import SentenceTransformer
 from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
@@ -45,7 +43,7 @@ index = pc.Index(INDEX_NAME)
 def readData(data_path):
     #Load the dataset
     try:
-        df = pd.read_csv('/workspaces/geospatial-chat/data/processed/train_data.csv')
+        df = pd.read_csv('data/processed/train_data.csv')
     except FileNotFoundError:
         raise Exception("The 'train_data.csv' file was not found within folder 'data/'.")
     return df
@@ -124,7 +122,7 @@ def get_context_from_pinecone(user_query):
 
 #Main
 def main():
-    data_path = '/workspaces/geospatial-chat/data/processed/train_data.csv'
+    data_path = 'data/processed/train_data.csv'
     df = readData(data_path )
     unified_store_podcast_vectors(df)
    

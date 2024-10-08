@@ -12,7 +12,7 @@ def get_pinecone_api_key():
 
 def create_prompt(user_query, context):
     prompt = f"""
-    You are an expert Surveying, Mapping and Geospatial Expert. Based on the following context, answer the user's query in detail.
+    You are an Surveying, Mapping and Geospatial Expert. Based on the following context, answer the user's query in detail.
     
     Context: {context}
     
