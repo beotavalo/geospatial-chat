@@ -44,6 +44,14 @@ The user can write a query on a Streamit UI, so the chat will deliver a response
 
 ![Streamlit -RAG UI](https://github.com/beotavalo/geospatial-chat/blob/main/images/UI-chat2.jpg)
 
+## Retrieval and RAG evaluation 
+The Retrieval context evaluation is perforomed based on a random sample of question with cosine similarity metric.
+The RAG response evaluation is done using [RAGAS](https://docs.ragas.io/en/latest/).
+The evaluation report is the [Evaluation Notebook](https://github.com/beotavalo/geospatial-chat/blob/main/notebooks/Evaluation.ipynb).
+
+## Containerization 
+The [Makefile](https://github.com/beotavalo/geospatial-chat/blob/main/Makefile) with [Dockerfile](https://github.com/beotavalo/geospatial-chat/blob/main/Dockerfile) will help you to build docker image, push to your docker hub repo, pull from the docker hub, and run the container. 
+
 ## Deployment
 
 To run locally execute this command:
@@ -51,3 +59,4 @@ To run locally execute this command:
 ```
 streamlit run app.py
 ```
+To deploy on cloud it is posible to pull the docker image and deploy on the virtual machine.
