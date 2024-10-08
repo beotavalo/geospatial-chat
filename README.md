@@ -14,14 +14,35 @@ The project involves developing a Retrieval-Augmented Generation (RAG) system wi
 ## Technologies
 This is the technological stack used for this project:
 
-* LLM: OpenAI
-* Knowledge base: This FAQ Knowledge Base was built using data mining and web scrapping from surveying and mapping companies, organizations, and blogs.
+* LLM: OpenAI(gpt-3.5-turbo)
+* Knowledge base: The Knowledge Base was built using data mining and web scrapping from surveying and mapping companies, organizations, and blogs.
 * Vector DB: Pinecone
 * Embeddings: Sentence Transformers (model: "all-mpnet-base-v2") 
 * Monitoring: Grafana
 * Interface: Streamlit
 * Ingestion pipeline:  Prefect
 
+## RAG Flow
+The [Knowledge Base](https://github.com/beotavalo/geospatial-chat/blob/main/data/processed/train_data.json) was built using data mining and web scrapping from surveying and mapping companies, organizations, and blogs.
+We built a vector DB on Pinecone, for embeddings We used Sentence Transformers (model: "all-mpnet-base-v2"), a vector of lenght 768, with metadata.
+
+![](https://github.com/beotavalo/geospatial-chat/blob/main/images/VectorDB.jpg)
+![Knowledge Base - Vector DB](https://github.com/beotavalo/geospatial-chat/blob/main/images/Vector%20DB.jpg)
+
+A [query promt](https://github.com/beotavalo/geospatial-chat/blob/main/src/utils.py) with vector DB context is sent to OpenAI LLM model (gpt-3.5-turbo).
+```
+def call_llm_apenai_model(prompt):
+    response = client.chat.completions.create(
+        model='gpt-3.5-turbo',
+        messages=[{"role": "user", "content": prompt}]
+    )
+    
+    return response.choices[0].message.content
+```
+## Interface
+The user can write a query on a Streamit UI, so the chat will deliver a response using Knowledge Base context and LLM query.
+
+![Streamlit -RAG UI](https://github.com/beotavalo/geospatial-chat/blob/main/images/UI-chat2.jpg)
 
 ## Deployment
 
